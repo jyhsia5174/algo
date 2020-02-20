@@ -7,6 +7,7 @@ id | prob_name | num_try | time | topics | err_note | read_solution | todo | ext
  1 | Two Sum | 1 | - | Hash Table | - | done | - | -
  7 | Reverse Integer | 5 | 1h | Math | 1. c++ operator precedence <br> 2. Read instruction carefully | done | - | - | -
  14 | Longest Common Prefix | 3 | 27m | String | use min\<T\>() instead of min() | done | - | - | -
+ 15 | 3Sum | 3 | 59m47s | 3sum | tle | none | read other's code | -
  33 | Search in Rotated Sorted Array | 2 | 2h | Binary search | Overlook corner case arr size == 0 | done | try while loop for search | - 
  128 | Longest Consecutive Sequence | 2 | 43m07s | Hash Table | corner case arr = [] | done | - | -
  160 | Intersection of Two Linked Lists | 2 | 30m | Linked List | typo | done | - | -
