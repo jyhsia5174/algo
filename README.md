@@ -9,6 +9,7 @@ id | prob_name | num_try | time | topics | err_note | read_solution | todo | ext
  14 | Longest Common Prefix | 3 | 27m | String | use min\<T\>() instead of min() | done | - | - | -
  15 | 3Sum | 3 | 59m47s | 3sum | tle | none | read other's code | -
  33 | Search in Rotated Sorted Array | 2 | 2h | Binary search | Overlook corner case arr size == 0 | done | try while loop for search | - 
+ 36 | Valid Sudoku | 5 | 30m00s | hash table | 1. missing ; <br> 2. wrong input  | done | - | -
  128 | Longest Consecutive Sequence | 2 | 43m07s | Hash Table | corner case arr = [] | done | - | -
  160 | Intersection of Two Linked Lists | 2 | 30m | Linked List | typo | done | - | -
  162 | Find Peak Element | 7 | 1h | Binary Search | 1. Wrong proof <br> 2. Miss INT_MIN corner case | done | try iterative bi search  | - 
