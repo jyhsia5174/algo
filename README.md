@@ -18,5 +18,6 @@ id | prob_name | num_try | time | topics | err_note | read_solution | todo | ext
  322 | Coin Change | 2 | 1h | Dynamic Programming | wrong init vec size | done | try bottom-up approach  | - 
  334 | Increasing Triplet Subsequence | 3 | 1h30m | - | 1. Read instruction carefully | none | -  | We can extends to more than 3 seq
  659\* | Split Array into Consecutive Subsequences | nan | 3h | greedy | 1. i++ vs ++i <br> 2. Miss end case <br> 3. if( a- b ) not equiv if( a > b ) | done | - | -
+ 951 | Flip Equivalent Binary Trees | 3 | 1h30m | tree | 1. miss tree traverse NULL leaf detection | done | - | -
  1088 | Confusing Number II | 2 | 2h | backtracing | see note | none | - | -
  1219 | Path with Maximum Gold | 2 | 30m | backtracking | 1. m\*n arr not L * L arr | none | - | -
