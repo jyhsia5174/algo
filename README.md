@@ -14,6 +14,7 @@ id | prob_name | num_try | time | topics | err_note | read_solution | todo | ext
  162 | Find Peak Element | 7 | 1h | Binary Search | 1. Wrong proof <br> 2. Miss INT_MIN corner case | done | try iterative bi search  | - 
  202 | Happy Number | 2 | 27m00s | Hash Table & Math | misused %= as /= | done | Floyd's Cycle-Finding Algorithm | -
  221\* | Maximal Square | nan | 2h | Dynamic Programming | Not come up solution | done | - | -
+ 299 | Bulls and Cows | 2 | 20m | hash table | - | - | - | -
  322 | Coin Change | 2 | 1h | Dynamic Programming | wrong init vec size | done | try bottom-up approach  | - 
  334 | Increasing Triplet Subsequence | 3 | 1h30m | - | 1. Read instruction carefully | none | -  | We can extends to more than 3 seq
  459\* | Repeated Substring Pattern | nan | nan | string | 1. try too complicated method | none | - | built longest proper prefix
