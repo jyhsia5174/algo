@@ -15,6 +15,7 @@ id | prob_name | num_try | time | topics | err_note | read_solution | todo | ext
  202 | Happy Number | 2 | 27m00s | Hash Table & Math | misused %= as /= | done | Floyd's Cycle-Finding Algorithm | -
  221\* | Maximal Square | nan | 2h | Dynamic Programming | Not come up solution | done | - | -
  271 | Encode and Decode Strings | nan | 2h | encoding | 1. char vs unsigned char | done | - | -
+ 295 | Find Median from Data Stream | nan | 2h00m | 1. head 2. design | avl tree subtree may be null | - | - | -
  297 | Serialize and Deserialize Binary Tree | nan | 1h | tree, design | 1. pointer is pass by copy <br> 2. intToS sToInt | done | - | -
  299 | Bulls and Cows | 2 | 20m | hash table | - | - | - | -
  322 | Coin Change | 2 | 1h | Dynamic Programming | wrong init vec size | done | try bottom-up approach  | - 
