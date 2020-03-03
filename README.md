@@ -1,6 +1,6 @@
 # leetcode.solution
 
-id | prob_name | num_try | time | topics | err_note | read_solution | todo | extension_thinking
+id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
  1 | Two Sum | 1 | - | Hash Table | - | done | - | -
  7 | Reverse Integer | 5 | 1h | Math | 1. c++ operator precedence <br> 2. Read instruction carefully | done | - | - | -
