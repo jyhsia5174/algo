@@ -37,4 +37,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  1074\* | Number of Submatrices That Sum to Target | 3 | 1h | dp | tle | none | - | -
  1088 | Confusing Number II | 2 | 2h | backtracing | see note | none | - | -
  1146\* | Snapshot Array | nan | nan | ? | 1. don't use memset .... 2. begin case | none | - | -
+ 1197\* | Minimum Knight Moves | nan | 2h | bfs | 1. time limited exceeded 2. unordered_map does not support pair 3. miss 0,0 case | none | - | -
  1219 | Path with Maximum Gold | 2 | 30m | backtracking | 1. m\*n arr not L * L arr | none | - | -
