@@ -27,6 +27,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  659\* | Split Array into Consecutive Subsequences | nan | 3h | greedy | 1. i++ vs ++i <br> 2. Miss end case <br> 3. if( a- b ) not equiv if( a > b ) | done | - | -
  727 | Minimum Window Subsequence | 3 | 27m | 1. dp 2. sliding window | - | done | - | -
  752 | Open the Lock | nan | 1h12m | bfs | 1. fail on dp | done | - | two-end bfs speed up
+ 833 | Find And Replace in String | 2 | 30m | string | index update rule miss | done | - | -
  843 | Guess the Word | 2 | 30m | minimax | - | done | - | -
  862\* | Shortest Subarray with Sum at Least K | 2 | 1h25m | deque, binary search | - | done | - | -
  889 | Construct Binary Tree from Preorder and Postorder Traversal | 5 | 1h | tree | see note | read O(n) | - | -
