@@ -24,6 +24,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  359 | Logger Rate Limiter | 3 | 45min | 1. hash table <br> 2. design | 1. priority queue use "push" <br> 2. class mycmp{ bool operator()() const {}} | done | - | -
  459\* | Repeated Substring Pattern | nan | nan | string | 1. try too complicated method | none | - | built longest proper prefix
  465 | Optimal Account Balancing | 3 | 1h05m | dfs | - | - | - | -
+ 489 | Robot Room Cleaner | 1 | 1h | dfs | - | done | - | -
  552 | Student Attendance Record II | 5 | 1h30m | dp | 1. miss understand Q | - | - | -
  659\* | Split Array into Consecutive Subsequences | nan | 3h | greedy | 1. i++ vs ++i <br> 2. Miss end case <br> 3. if( a- b ) not equiv if( a > b ) | done | - | -
  727 | Minimum Window Subsequence | 3 | 27m | 1. dp 2. sliding window | - | done | - | -
