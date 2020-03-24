@@ -30,6 +30,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  727 | Minimum Window Subsequence | 3 | 27m | 1. dp 2. sliding window | - | done | - | -
  752 | Open the Lock | nan | 1h12m | bfs | 1. fail on dp | done | - | two-end bfs speed up
  767 | Reorganize String | nan | 1h30m | 1. greedy 2. string | no idea | done | - | -
+ 809 | Expressive Words | 1 | 30m | string | 1. vector use push_back... | done | - | -
  833 | Find And Replace in String | 2 | 30m | string | index update rule miss | done | - | -
  843 | Guess the Word | 2 | 30m | minimax | - | done | - | -
  862\* | Shortest Subarray with Sum at Least K | 2 | 1h25m | deque, binary search | - | done | - | -
