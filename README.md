@@ -23,6 +23,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  334 | Increasing Triplet Subsequence | 3 | 1h30m | - | 1. Read instruction carefully | none | -  | We can extends to more than 3 seq
  336 | Palindrome Pairs | nan | 1h | string | missing cases | done | try trie tree | -
  359 | Logger Rate Limiter | 3 | 45min | 1. hash table <br> 2. design | 1. priority queue use "push" <br> 2. class mycmp{ bool operator()() const {}} | done | - | -
+ 362 | Design Hit Counter | nan | ?? | Design | array indexing | none | - | -
  459\* | Repeated Substring Pattern | nan | nan | string | 1. try too complicated method | none | - | built longest proper prefix
  465 | Optimal Account Balancing | 3 | 1h05m | dfs | - | - | - | -
  489 | Robot Room Cleaner | 1 | 1h | dfs | - | done | - | -
