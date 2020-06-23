@@ -40,7 +40,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  889 | Construct Binary Tree from Preorder and Postorder Traversal | 5 | 1h | tree | see note | read O(n) | - | -
  951 | Flip Equivalent Binary Trees | 3 | 45m | tree | 1. miss tree traverse NULL leaf detection | done | - | -
  1007 | Minimum Domino Rotations For Equal Row | 3 | 25m | greedy | 1. miss the Q requirement | done | - | -
- 1031\* | Maximum Sum of Two Non-Overlapping Subarrays | nan | 3h | array | 1. segmentation tree implementation 2. indexing array | read_sol | todo | ext
+ 1031\* | Maximum Sum of Two Non-Overlapping Subarrays | nan | 3h | array | 1. segmentation tree implementation 2. indexing array | done | - | -
  1032\* | Stream of Characters | nan | nan | ac automaton | - | - | - | -
  1110 | Delete Nodes And Return Forest | 1 | 1h | dfs | none | none | - | -
  1048 | Longest String Chain | 3 | 1h26m | Hash Table, DP | 1. wrong vector initialization <br> 2. update maxH err | none | - | -
