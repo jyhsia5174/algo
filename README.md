@@ -51,3 +51,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  1219 | Path with Maximum Gold | 2 | 30m | backtracking | 1. m\*n arr not L * L arr | none | - | -
  1231 | Divide Chocolate | 2 | 1h | 1. binary search 2. greedy | iterative biseach implementation err | - | - | -
 375 | Guess Number Higher or Lower II | nan | 1h20m | dp | 1. wrong thinking direction. | done | - | -
+1438 | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | 4 | 45min | 1. array 2. sliding window | 1. empty map access  | read_sol | todo | ext
