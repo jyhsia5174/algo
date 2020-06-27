@@ -54,3 +54,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1438 | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | 4 | 45min | 1. array 2. sliding window | 1. empty map access  | done | try deque | - 
  743 | Network Delay Time | 3 | 22m | Dijkstra's algorithm | 1. forget init original cost to zero. | done | - | -
  76\* | Minimum Window Substring | 3 | 45m | 1. two pointer 2. hash table | Not familiar with hash tricks. | done | do more hash problems | -
+ 560 | Subarray Sum Equals K | 2 | 20m | 1. hash table | indexing error | done | - | -
