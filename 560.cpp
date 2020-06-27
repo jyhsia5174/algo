@@ -24,5 +24,5 @@ public:
         return result;
     }
 private:
-    map<int, int> counts;
+    unordered_map<int, int> counts;
 };
