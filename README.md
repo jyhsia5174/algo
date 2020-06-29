@@ -56,3 +56,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  76\* | Minimum Window Substring | 3 | 45m | 1. two pointer 2. hash table | Not familiar with hash tricks. | done | do more hash problems | -
  560 | Subarray Sum Equals K | 2 | 20m | 1. hash table | indexing error | done | - | -
  253 | Meeting Rooms II | 2 | 20m | interval overlap count | 1. input array may be empty | done | - | -
+ 846 | Hand of Straights | 2 | 15m | 1. ordered map | 1. map.begin()->first 2. map.find() | done | - | -
