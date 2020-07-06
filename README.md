@@ -60,3 +60,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  1296 | Divide Array in Sets of K Consecutive Numbers (same as 846) | 2 | 15m | 1. ordered map | 1. map.begin()->first 2. map.find() | done | - | -
  1140\* | Stone Game II | nan | nan | dp | - | - | do more dp | -
  346 | Moving Average from Data Stream | 1 | 7m | queue | - | done | - | -
+ 946 | Validate Stack Sequences | 2 | 15m | stack | 1. miss stack is empty case. | done | - | -
