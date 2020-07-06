@@ -61,3 +61,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  1140\* | Stone Game II | nan | nan | dp | - | - | do more dp | -
  346 | Moving Average from Data Stream | 1 | 7m | queue | - | done | - | -
  946 | Validate Stack Sequences | 2 | 15m | stack | 1. miss stack is empty case. | done | - | -
+ 679\* | 24 Game | nan | 1h25m | dfs | - | done | 1. do more permutation problem | -
