@@ -63,3 +63,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  946 | Validate Stack Sequences | 2 | 15m | stack | 1. miss stack is empty case. | done | - | -
  679\* | 24 Game | nan | 1h25m | dfs | - | done | 1. do more permutation problem | -
  410\* | Split Array Largest Sum | nan | 45m | dp or bisearch | infinite bisearch loop | done | list all some invalid bisearch case | -
+ 315\* | Count of Smaller Numbers After Self | nan | nan | merge sort with status | do not have sol | done | done | done
