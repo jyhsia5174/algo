@@ -66,3 +66,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  315\* | Count of Smaller Numbers After Self | nan | nan | merge sort with status | do not have sol | done | done | done
  1153\* | String Transforms Into Another String | 4 | 1h15m | 1. graph 2. union set | 1. logic error (write down pseudo-code / double check pseudo code) | none | - | -
  1345 | Jump Game IV | nan | 1h | bfs | 1. Create unneccesary arry with length N | - | - | -
+ 593 | Valid Square | 2 | 20m | geometry | miss 0, 0, 0, 0 case | - | - | -
