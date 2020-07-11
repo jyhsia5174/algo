@@ -1,4 +1,15 @@
 // 399. Evaluate Division
+struct hash_pair { 
+    template <class T1, class T2> 
+    size_t operator()(const pair<T1, T2>& p) const
+    { 
+        auto hash1 = hash<T1>{}(p.first); 
+        auto hash2 = hash<T2>{}(p.second); 
+        return hash1 ^ hash2; 
+    } 
+}; 
+
+// 399. Evaluate Division
 class Solution {
 public:
     vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
@@ -35,8 +46,8 @@ public:
             E[hash1].push_back( {hash2, val} );
             E[hash2].push_back( {hash1, 1.0/val} );
             
-            //ans[ {hash1, hash2} ] = val;
-            //ans[ {hash2, hash1} ] = 1.0/val;
+            ans[ {hash1, hash2} ] = val;
+            ans[ {hash2, hash1} ] = 1.0/val;
         }
         
         visited.resize(count, false);
@@ -63,13 +74,13 @@ public:
         return result;
     }
 private:
-    //unordered_map<pair<int, int>, double> ans;
+    unordered_map<pair<int, int>, double, hash_pair> ans;
     vector<vector<pair<int, double>>> E;
     vector<bool> visited;
     double dfs( int cur_idx, int target_idx ){
         if( cur_idx == target_idx ) return 1;
         pair<int, int> pp{cur_idx, target_idx};
-        //if( ans.count(pp) ) return ans[pp];
+        if( ans.count(pp) ) return ans[pp];
         
         double res = -1;
         for(auto &next: E[cur_idx]){
@@ -77,9 +88,9 @@ private:
             visited[next.first] = true;
             res = dfs( next.first, target_idx );
             if( res != -1 ){
-                //ans[pp] = res * next.second;
-                //return ans[pp];
-                return res * next.second;
+                ans[pp] = res * next.second;
+                return ans[pp];
+                //return res * next.second;
             }
         }
         
