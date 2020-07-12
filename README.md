@@ -68,4 +68,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  1345 | Jump Game IV | nan | 1h | bfs | 1. Create unneccesary arry with length N | - | - | -
  593 | Valid Square | 2 | 20m | geometry | miss 0, 0, 0, 0 case | - | - | -
 399 | Evaluate Division | 3 | 50m | dfs | 1. unordered_map using pair need its own hash function. | - | try using union_set method | -
-394 | Decode String | nan | 1h20m | parser | 1. Not clear about LL parser | - | - | -
+394\* | Decode String | nan | 1h20m | parser | 1. Not clear about LL parser | - | - | -
