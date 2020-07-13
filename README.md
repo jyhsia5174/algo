@@ -71,3 +71,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 394\* | Decode String | nan | 1h20m | parser | 1. Not clear about LL parser | - | - | -
 85 | Maximal Rectangle | 2 | 40m | dp | 1. input data is a char not int value. | done | todo | ext
 914 | X of a Kind in a Deck of Cards | 2 | 9m | 1. math (gcd) | map.begin()->second | done | - | -
+1320\* | Minimum Distance to Type a Word Using Two Fingers| nan | 1h | dp | 1. matrix access before initialization | - | - | -
