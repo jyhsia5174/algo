@@ -75,4 +75,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1320\* | Minimum Distance to Type a Word Using Two Fingers| nan | 1h | dp | 1. matrix access before initialization | - | - | -
 1060 | Missing Element in Sorted Array | 1 | 10m | binary search | - | done | - | -
 270 | Closest Binary Search Tree Value| 2 | 20m | binary search tree traversal | type unmatched errer | done | - | -
+301\* | Remove Invalid Parentheses | nan | nan | backtracing | unfamiliar with backtracing implementation | done | - | -
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
