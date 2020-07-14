@@ -73,3 +73,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 914 | X of a Kind in a Deck of Cards | 2 | 9m | 1. math (gcd) | map.begin()->second | done | - | -
 1376 | Time Needed to Inform All Employees | nan | 20m | bfs | 1. access queue element after pop | - | - | -
 1320\* | Minimum Distance to Type a Word Using Two Fingers| nan | 1h | dp | 1. matrix access before initialization | - | - | -
+1060 | Missing Element in Sorted Array | 1 | 10m | binary search | - | done | - | -
+id | prob_name | try | time | topics | err_note | read_sol | todo | ext
