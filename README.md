@@ -76,4 +76,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1060 | Missing Element in Sorted Array | 1 | 10m | binary search | - | done | - | -
 270 | Closest Binary Search Tree Value| 2 | 20m | binary search tree traversal | type unmatched errer | done | - | -
 301\* | Remove Invalid Parentheses | nan | nan | backtracing | unfamiliar with backtracing implementation | done | - | -
+199 | Binary Tree Right Side View | 2 | 12m | 1. Tree 2. BFS | missing a case that root is NULL. | done | - | -
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
