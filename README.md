@@ -79,4 +79,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 199 | Binary Tree Right Side View | 2 | 12m | 1. Tree 2. BFS | missing a case that root is NULL. | done | - | -
 273 | Integer to English Words | 6 | 1h | Implementation | 1. string merge | done | - | -
 23 | Merge k Sorted Lists | 4 | 30m | 1. merge sort | 1. logic error | done | - | -
+67 | Add Binary | 2 | 16m | 1. math | 1. Forget to clear register after while loop | done | - | -
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
