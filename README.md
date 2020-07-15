@@ -80,4 +80,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 273 | Integer to English Words | 6 | 1h | Implementation | 1. string merge | done | - | -
 23 | Merge k Sorted Lists | 4 | 30m | 1. merge sort | 1. logic error | done | - | -
 67 | Add Binary | 2 | 16m | 1. math | 1. Forget to clear register after while loop | done | - | -
+398 | Random Pick Index | 1 | 9m | reservoir sampling | - | none | - | -
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
