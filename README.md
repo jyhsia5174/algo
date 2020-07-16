@@ -82,4 +82,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 67 | Add Binary | 2 | 16m | 1. math | 1. Forget to clear register after while loop | done | - | -
 398 | Random Pick Index | 1 | 9m | reservoir sampling | - | none | - | -
 269\* | Alien Dictionary | nan | 2h30m | 1. Graph 2. Topology sort | Not familiar with problem | done | - | -
-id | prob_name | try | time | topics | err_note | read_sol | todo | ext
+88 | Merge Sorted Array | 1 | 12m | 1. two pointer | - | done | - | -
+| try | time | topics | err_note | read_sol | todo | ext
