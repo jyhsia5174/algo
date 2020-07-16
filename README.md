@@ -83,4 +83,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 398 | Random Pick Index | 1 | 9m | reservoir sampling | - | none | - | -
 269\* | Alien Dictionary | nan | 2h30m | 1. Graph 2. Topology sort | Not familiar with problem | done | - | -
 88 | Merge Sorted Array | 1 | 12m | 1. two pointer | - | done | - | -
+415 | Add Strings | 1 | 10m | 1. two pointer | - | done | - | -
 | try | time | topics | err_note | read_sol | todo | ext
