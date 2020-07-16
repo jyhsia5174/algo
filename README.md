@@ -81,4 +81,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 23 | Merge k Sorted Lists | 4 | 30m | 1. merge sort | 1. logic error | done | - | -
 67 | Add Binary | 2 | 16m | 1. math | 1. Forget to clear register after while loop | done | - | -
 398 | Random Pick Index | 1 | 9m | reservoir sampling | - | none | - | -
+269\* | Alien Dictionary | nan | 2h30m | 1. Graph 2. Topology sort | Not familiar with problem | done | - | -
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
