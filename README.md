@@ -86,4 +86,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 415 | Add Strings | 1 | 10m | 1. two pointer | - | done | - | -
 124\* | Binary Tree Maximum Path Sum | nan | 1h40m | 1. tree 2. dfs | - | done | - | -
 238 | Product of Array Except Self | 1 | 16m | 1. array | none | read_sol | todo | ext
+953 | Verifying an Alien Dictionary | 3 | 14m | 1. hash table | sort cannot use non-static function as cmp | done | - | -
 | try | time | topics | err_note | read_sol | todo | ext
