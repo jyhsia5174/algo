@@ -90,4 +90,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 56 | Merge Intervals | 1 | 11m | 1. array 2. sort | none | done | todo | ext
 1249 | Minimum Remove to Make Valid Parentheses | 1 | 11m | 1. stack 2. string | - | done | todo | ext
 973 | K Closest Points to Origin | 2 | 11m | 1. divide and conqur 2. heap 3. sort | 1. priority_queue put largest first or lowest when greater<T> is applied. | done | todo | ext
+31 | Next Permutation | 3 | 30m | 1. permutation | 1. binary search condition problem | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
