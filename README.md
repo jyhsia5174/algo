@@ -89,4 +89,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 953 | Verifying an Alien Dictionary | 3 | 14m | 1. hash table | sort cannot use non-static function as cmp | done | - | -
 56 | Merge Intervals | 1 | 11m | 1. array 2. sort | none | done | todo | ext
 1249 | Minimum Remove to Make Valid Parentheses | 1 | 11m | 1. stack 2. string | - | done | todo | ext
+973 | K Closest Points to Origin | 2 | 11m | 1. divide and conqur 2. heap 3. sort | 1. priority_queue put largest first or lowest when greater<T> is applied. | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
