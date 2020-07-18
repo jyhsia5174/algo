@@ -25,7 +25,7 @@ public:
                 r = m -1;
             }
             else{
-                if( A[m] < val ){
+                if( A[m] < val || (A[m] == val && m > jdx) ){
                     val = A[m];
                     jdx = m;
                 }
@@ -36,7 +36,7 @@ public:
         if( jdx == -1 ) return false;
         
         swap( A[idx], A[jdx] );
-        sort(A.begin()+idx+1, A.end());
+        reverse(A.begin()+idx+1, A.end());
         return true;
     }
 };
