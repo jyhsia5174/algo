@@ -93,4 +93,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 31 | Next Permutation | 3 | 30m | 1. permutation | 1. binary search condition problem | done | todo | ext
 215 | Kth Largest Element in an Array | 8 | 40m | 1. quick select or intro select algo | 1. partition function must return size >=1 | done | todo | ext
 680 | Valid Palindrome II | 1 | 10m | 1. string | none | done | todo | ext
+986 | Interval List Intersections| 3 | 20m | 1. two pointer | 1. logic error | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
