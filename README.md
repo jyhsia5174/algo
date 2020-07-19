@@ -92,4 +92,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 973 | K Closest Points to Origin | 2 | 11m | 1. divide and conqur 2. heap 3. sort | 1. priority_queue put largest first or lowest when greater<T> is applied. | done | todo | ext
 31 | Next Permutation | 3 | 30m | 1. permutation | 1. binary search condition problem | done | todo | ext
 215 | Kth Largest Element in an Array | 8 | 40m | 1. quick select or intro select algo | 1. partition function must return size >=1 | done | todo | ext
+680 | Valid Palindrome II | 1 | 10m | 1. string | none | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
