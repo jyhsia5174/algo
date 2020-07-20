@@ -98,4 +98,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 173 | Binary Search Tree Iterator | 1 | 30m | 1. tree traversal using stack | none | done | todo | ext
 543 | Diameter of Binary Tree | 3 | 10m | 1. tree | typing error | done | todo | ext
 438 | Find All Anagrams in a String | 1 | 17m | hash table | none | done | todo | ext
+187 | Repeated DNA Sequences| 3 | 10m | hash table | hash value reverse problem with 0 | done | todo | ext
  | try | time | topics | err_note | read_sol | todo | ext
