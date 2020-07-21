@@ -103,4 +103,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 528 | Random Pick with Weight | 2 | 18m | 1. binary search | 1. binary search disign flawes | done | todo | ext
 158 | Read N Characters Given Read4 II - Call multiple times | 1 | 15m | 1. string | none | none | todo | ext
 125 | Valid Palindrome| 2 | 11m | 1. string | 1. miss nums cases | done | todo | ext
+211 | Add and Search Word - Data structure design| 5 | 23m | trie | 1. never use i, j, k as var name...  | done | todo | ext
  | try | time | topics | err_note | read_sol | todo | ext
