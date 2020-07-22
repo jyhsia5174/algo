@@ -104,4 +104,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 158 | Read N Characters Given Read4 II - Call multiple times | 1 | 15m | 1. string | none | none | todo | ext
 125 | Valid Palindrome| 2 | 11m | 1. string | 1. miss nums cases | done | todo | ext
 211 | Add and Search Word - Data structure design| 5 | 23m | trie | 1. never use i, j, k as var name...  | done | todo | ext
+636\* | Exclusive Time of Functions | nan | 1h40m | stack | 1. string tokenizing | done | todo | ext
  | try | time | topics | err_note | read_sol | todo | ext
