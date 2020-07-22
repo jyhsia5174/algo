@@ -105,4 +105,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 125 | Valid Palindrome| 2 | 11m | 1. string | 1. miss nums cases | done | todo | ext
 211 | Add and Search Word - Data structure design| 5 | 23m | trie | 1. never use i, j, k as var name...  | done | todo | ext
 636\* | Exclusive Time of Functions | nan | 1h40m | stack | 1. string tokenizing | done | todo | ext
+340 | Longest Substring with At Most K Distinct Characters| 5 | 25m | 1. string 2. hash table 3. two pointer | 1. while loop break condition has two type. | done | todo | ext
  | try | time | topics | err_note | read_sol | todo | ext
