@@ -108,4 +108,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 340 | Longest Substring with At Most K Distinct Characters| 5 | 25m | 1. string 2. hash table 3. two pointer | 1. while loop break condition has two type. | done | todo | ext
 621\* | Task Scheduler | nan | 1h | 1. greedy | 1. no solution | done | todo | ext
 278 | First Bad Version | 1 | 5m | 1. binary search | none | done | todo | ext
+938 | Range Sum of BST | 1 | 6m | 1. tree traversal | none | done | todo | ext
  | try | time | topics | err_note | read_sol | todo | ext
