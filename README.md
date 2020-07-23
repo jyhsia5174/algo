@@ -111,4 +111,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 938 | Range Sum of BST | 1 | 6m | 1. tree traversal | none | done | todo | ext
 523 | Continuous Subarray Sum| nan | 40m | dp | 1. miss corner case k == 0 and k is negative | done | todo | ext
 785 | Is Graph Bipartite? | 3 | 36m | 1. disjoin set | none | done | todo | ext
+311 | Sparse Matrix Multiplication | 3 | 17m | hash table | err_note | read_sol | todo | ext
  | try | time | topics | err_note | read_sol | todo | ext
