@@ -21,17 +21,17 @@ public:
             return false;
         }
         
-        unordered_map<int, unordered_set<int>> S;
+        unordered_map<int, int> S;
         for(int i = 0; i < nums.size(); i++){
             sum[i+1] = ( sum[i] + (unsigned int) nums[i] ) % k;
-            S[sum[i+1]].insert(i+1);
+            S[sum[i+1]]++;
         }
         
-        S[sum[1]].erase( 1 );
-        if( !S[0].empty() ) return true;
+        S[sum[1]]--;
+        if( S[0] >= 1 ) return true;
         for(int i = 0; i + 1 < N; i++){
-            if( !S[sum[i]].empty() ) return true;
-            S[sum[i+2]].erase(i+2);
+            if( S[sum[i]] >= 1 ) return true;
+            S[sum[i+2]]--;
         }
         
         return false;
