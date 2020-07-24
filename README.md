@@ -113,4 +113,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 785 | Is Graph Bipartite? | 3 | 36m | 1. disjoin set | none | done | todo | ext
 311 | Sparse Matrix Multiplication | 3 | 17m | hash table | err_note | read_sol | todo | ext
 282. Expression Add Operators | nan | 1h | backtracing | do more backtracing problems | read_sol | todo | ext
+249 | Group Shifted Strings | 5 | 40m | hash table | 1. Not familiar to built a hash linked table | read_sol | todo | ext
  | try | time | topics | err_note | read_sol | todo | ext
