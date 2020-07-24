@@ -116,4 +116,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 249 | Group Shifted Strings | 5 | 40m | hash table | 1. Not familiar to built a hash linked table | read_sol | todo | ext
 670 | Maximum Swap  | 10 | 40m | 1. array 2. math | 1. implementing priority queue failed | done | todo | ext
 689\* | Maximum Sum of 3 Non-Overlapping Subarrays | nan | 1h23m | 1. array 2. dp | 1. indexing problems | done | todo | ext
+1428 | Leftmost Column with at Least a One | 2 | 9m | 1. binary search | 1. while( l + 1 < r ) | done | todo | ext
  | try | time | topics | err_note | read_sol | todo | ext
