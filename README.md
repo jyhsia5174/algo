@@ -117,4 +117,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 670 | Maximum Swap  | 10 | 40m | 1. array 2. math | 1. implementing priority queue failed | done | todo | ext
 689\* | Maximum Sum of 3 Non-Overlapping Subarrays | nan | 1h23m | 1. array 2. dp | 1. indexing problems | done | todo | ext
 1428 | Leftmost Column with at Least a One | 2 | 9m | 1. binary search | 1. while( l + 1 < r ) | done | todo | ext
+896 | Monotonic Array | 1 | 4m | 1. array | none | done | todo | ext
  | try | time | topics | err_note | read_sol | todo | ext
