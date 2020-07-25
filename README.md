@@ -121,4 +121,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1026 | Maximum Difference Between Node and Ancestor| 2 | 18m | 1. tree 2. dfs | 1. typing error | none | todo | ext
 825 | Friends Of Appropriate Ages | 1 | 17m | 1. array | none | done | todo | ext
 200 | Number of Islands | 1 | 14m | 1. dfs | none | done | todo | ext
+2 | Add Two Numbers | 1 | 12m | 1. linked list | none | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
