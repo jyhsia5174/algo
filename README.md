@@ -112,10 +112,11 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 523 | Continuous Subarray Sum| nan | 40m | dp | 1. miss corner case k == 0 and k is negative | done | todo | ext
 785 | Is Graph Bipartite? | 3 | 36m | 1. disjoin set | none | done | todo | ext
 311 | Sparse Matrix Multiplication | 3 | 17m | hash table | err_note | read_sol | todo | ext
-282. Expression Add Operators | nan | 1h | backtracing | do more backtracing problems | read_sol | todo | ext
+282 | Expression Add Operators | nan | 1h | backtracing | do more backtracing problems | read_sol | todo | ext
 249 | Group Shifted Strings | 5 | 40m | hash table | 1. Not familiar to built a hash linked table | read_sol | todo | ext
 670 | Maximum Swap  | 10 | 40m | 1. array 2. math | 1. implementing priority queue failed | done | todo | ext
 689\* | Maximum Sum of 3 Non-Overlapping Subarrays | nan | 1h23m | 1. array 2. dp | 1. indexing problems | done | todo | ext
 1428 | Leftmost Column with at Least a One | 2 | 9m | 1. binary search | 1. while( l + 1 < r ) | done | todo | ext
 896 | Monotonic Array | 1 | 4m | 1. array | none | done | todo | ext
- | try | time | topics | err_note | read_sol | todo | ext
+1026 | Maximum Difference Between Node and Ancestor| 2 | 18m | 1. tree 2. dfs | 1. typing error | none | todo | ext
+| try | time | topics | err_note | read_sol | todo | ext
