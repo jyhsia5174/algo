@@ -124,4 +124,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 2 | Add Two Numbers | 1 | 12m | 1. linked list | none | done | todo | ext
 937 | Reorder Data in Log Files | nan | 29m | 1. string | 1. string::npos != s.size() 2. key conflict | done | todo | ext
 146\* | LRU Cache | 10 | 35m | 1. link list 2. unordered_map | 1. not familiar with stl link list | done | todo | ext
+42 | Trapping Rain Water | 2 | 33m | 1. array 2. two pointer 3. stack  | none | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
