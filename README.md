@@ -127,4 +127,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 42 | Trapping Rain Water | 2 | 33m | 1. array 2. two pointer 3. stack  | none | done | todo | ext
 5 | Longest Palindromic Substring | 3 | 36m | 1. string | err_note | read_sol | todo | ext
 21 | Merge Two Sorted Lists | 1 | 4m | 1. merge linked lists | none | done | todo | ext
+1192 | Critical Connections in a Network | 10 | 1h17m | 1. tree 2. graph 3. Tarjan's algorithm | Graph traversal visits parent node | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
