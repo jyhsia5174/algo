@@ -130,4 +130,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1192 | Critical Connections in a Network | 10 | 1h17m | 1. tree 2. graph 3. Tarjan's algorithm | Graph traversal visits parent node | done | todo | ext
 994 | Rotting Oranges | 1 | 12m | 1. bfs | none | done | todo | ext
 121 | Best Time to Buy and Sell Stock | 1 | 5m | 1. array | none | done | todo | ext
+692 | Top K Frequent Words | 5 | 25m | 1. nth largest element | nth_element does not sort kth largerst ones | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
