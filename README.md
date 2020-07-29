@@ -133,4 +133,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 692 | Top K Frequent Words | 5 | 25m | 1. nth largest element | nth_element does not sort kth largerst ones | done | todo | ext
 763 | Partition Labels | 5 | 23m | 1. merge interval | 1. logic design error | done | todo | ext
 49 | Group Anagrams | 3 | 7m | 1. string | none | done | todo | ext
- | try | time | topics | err_note | read_sol | todo | ext
+380 | Insert Delete GetRandom O(1) | 3 | 20m | 1. design 2. hash table | 1. no idea | done | todo | ext
+| try | time | topics | err_note | read_sol | todo | ext
