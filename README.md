@@ -135,4 +135,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 49 | Group Anagrams | 3 | 7m | 1. string | none | done | todo | ext
 380 | Insert Delete GetRandom O(1) | 3 | 20m | 1. design 2. hash table | 1. no idea | done | todo | ext
 127 | Word Ladder | 10 | 1h | 1. bfs | 1. misunderstanding the target question in complexity  | done | todo | ext
+588 | Design In-Memory File System | 5 | 1h37m | 1. string processing 2. design | Need to practice more string to tokens in C++ | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
