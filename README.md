@@ -138,4 +138,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 588 | Design In-Memory File System | 5 | 1h37m | 1. string processing 2. design | Need to practice more string to tokens in C++ | done | todo | ext
 140 | Word Break II | nan | 1h | 1. dp  | 1. string pre vs post construction. | done | todo | ext
 239\* | Sliding Window Maximum | nan | 40m | 1. deque 2. dp | no idea of O(N) time | done | todo | ext
+227\* | Basic Calculator II | 10 | 1h | 1. string tokenization | +* is left-to-right | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
