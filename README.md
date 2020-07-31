@@ -142,4 +142,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 819 | Most Common Word | 5 | 10m | 1. string processing 2. hash map | 1. tolower 2. after while loop I miss a update | done | todo | ext
 460\* | LFU Cache | 10 | 55m | 1. design | too many | done | todo | ext
 348 | Design Tic-Tac-Toe | 2 | 9m | 1. design | typing error | done | todo | ext
+472 | Concatenated Words | 1 | 30m | 1. string 2. dfs | none | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
