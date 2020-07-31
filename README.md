@@ -141,4 +141,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 227\* | Basic Calculator II | 10 | 1h | 1. string tokenization | +* is left-to-right | done | todo | ext
 819 | Most Common Word | 5 | 10m | 1. string processing 2. hash map | 1. tolower 2. after while loop I miss a update | done | todo | ext
 460\* | LFU Cache | 10 | 55m | 1. design | too many | done | todo | ext
+348 | Design Tic-Tac-Toe | 2 | 9m | 1. design | typing error | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
