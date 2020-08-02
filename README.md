@@ -144,4 +144,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 348 | Design Tic-Tac-Toe | 2 | 9m | 1. design | typing error | done | todo | ext
 472 | Concatenated Words | 1 | 30m | 1. string 2. dfs | none | done | todo | ext
 240\* | Search a 2D Matrix II | nan | 45m | 1. bi search 2. designed | 1. lower_bound val >= T upper_bound val > T | done | todo | ext
+126 | Word Ladder II | 1 | 45m | 1. bfs | none | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
