@@ -146,4 +146,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 240\* | Search a 2D Matrix II | nan | 45m | 1. bi search 2. designed | 1. lower_bound val >= T upper_bound val > T | done | todo | ext
 126 | Word Ladder II | 1 | 45m | 1. bfs | none | done | todo | ext
 863\* | All Nodes Distance K in Binary Tree | 5 | 1h | 1. dfs 2. tree | 1. design flaws | done | todo | ext
+815 | Bus Routes | 3 | 20m | 1. bfs | 1. typo | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
