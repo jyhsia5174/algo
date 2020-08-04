@@ -151,4 +151,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 909 | Snakes and Ladders | nan | 1h30m | 2. bfs | read problem carefully | done | todo | ext
 1268\* | Search Suggestions System | nan | 2h | 1. tri | 1. c++ set<A*> in A is hard... | done | todo | ext
 1167 | Minimum Cost to Connect Sticks | 3 | 5m | 1. huffman encoding  | priority_queue smallest first -> greater<int> | done | todo | ext
+694 | Number of Distinct Islands | 5 | 24m | 1. 2d array encoding | 1. path encoding needs closing bracket '[]' | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
