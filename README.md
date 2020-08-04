@@ -149,4 +149,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 815 | Bus Routes | 3 | 20m | 1. bfs | 1. typo | done | todo | ext
 733 | Flood Fill | 1 | 9m| 1. bfs | none | done | todo | ext
 909 | Snakes and Ladders | nan | 1h30m | 2. bfs | read problem carefully | done | todo | ext
+1268\* | Search Suggestions System | nan | 2h | 1. tri | 1. c++ set<A*> in A is hard... | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
