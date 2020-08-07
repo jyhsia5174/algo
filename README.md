@@ -153,4 +153,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1167 | Minimum Cost to Connect Sticks | 3 | 5m | 1. huffman encoding  | priority_queue smallest first -> greater<int> | done | todo | ext
 694 | Number of Distinct Islands | 5 | 24m | 1. 2d array encoding | 1. path encoding needs closing bracket '[]' | done | todo | ext
 726 | Number of Atoms | 2 | 51m | 1. parser design | string initialization: string s1 (s2, st_idx, len); | done | todo | ext
+957 | Prison Cells After N Days | 10 | 37m | 1. hash table 2. rotation group | 1. misadd unrotationed elements into group loop. | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
