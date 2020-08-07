@@ -19,9 +19,7 @@ public:
                     break;
                 case 1:
                     idx++;
-                    num = 1;
-                    if(idx < F.size() && peek(F[idx]) == 3 )
-                        num = parse_num( F, idx);
+                    num = parse_num( F, idx);;
                     
                     for(auto &[name, count]: L_count[level])
                         L_count[level-1][name] += count * num;
@@ -30,9 +28,7 @@ public:
                     break;
                 case 2:
                     name = parse_name(F, idx);
-                    num = 1;
-                    if( idx < F.size() && peek(F[idx]) == 3 )
-                        num = parse_num(F, idx);
+                    num = parse_num(F, idx);
                     L_count[level][name] += num;
                     break;
                 case 3:
@@ -73,8 +69,7 @@ public:
     }
     
     string parse_name(const string &s, int &idx){
-        string res;
-        res += s[idx];
+        string res (s, idx, 1) ;
         idx++;
         while(idx < s.size() &&
               isalpha(s[idx]) && islower(s[idx]) ){
@@ -85,8 +80,9 @@ public:
     }
     
     int parse_num(const string &s, int &idx){
-        string res;
-        res += s[idx];
+        if( idx >= s.size() || !isdigit(s[idx]) )
+            return 1;
+        string res (s, idx, 1) ;
         idx++;
         while(idx < s.size() && isdigit(s[idx])){
             res += s[idx];
