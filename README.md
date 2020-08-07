@@ -152,4 +152,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1268\* | Search Suggestions System | nan | 2h | 1. tri | 1. c++ set<A*> in A is hard... | done | todo | ext
 1167 | Minimum Cost to Connect Sticks | 3 | 5m | 1. huffman encoding  | priority_queue smallest first -> greater<int> | done | todo | ext
 694 | Number of Distinct Islands | 5 | 24m | 1. 2d array encoding | 1. path encoding needs closing bracket '[]' | done | todo | ext
+726 | Number of Atoms | 2 | 51m | 1. parser design | string initialization: string s1 (s2, st_idx, len); | done | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
