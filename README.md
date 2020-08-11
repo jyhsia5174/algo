@@ -158,4 +158,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 403 | Frog Jump | 10 | 45m | 1. dp | O(N^2) implementation tle | done | todo | ext
 1091 | Shortest Path in Binary Matrix | 5 | 10m | 1. bfs | 1. ignore 0, 0 case | none | todo | ext
 1429 | First Unique Number | 2 | 13m | hash table | 1. code logic error | done | todo | ext
+353 | Design Snake Game | nan | 1h | 1. hash table | 1. read question more carefully | none | todo | ext
 | try | time | topics | err_note | read_sol | todo | ext
