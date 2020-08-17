@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 53 | Maximum Subarray | 5 | 13m | 1. dp | implementation error | done | todo | ext
  838 | Push Dominoes | 5 | 37m | 1. two pointer  | logic error | done | todo | ext
  1230 | Toss Strange Coins| 10 | 36m | 1. dp | logic error | done | more dp | ext
  1 | Two Sum | 1 | - | Hash Table | - | done | - | -
