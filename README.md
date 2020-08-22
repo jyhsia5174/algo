@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 256 | Paint House | 2 | 10m | 1. dp | 1. miss input array size == 0 | done | todo | ext
  1025 | Divisor Game | 1 | 11m | 1. dp  | none | done | todo | ext
  53 | Maximum Subarray | 5 | 13m | 1. dp | implementation error | done | todo | ext
  838 | Push Dominoes | 5 | 37m | 1. two pointer  | logic error | done | todo | ext
