@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 303 | Range Sum Query - Immutable | 1 | 3m | 1. dp | none | done | todo | ext
  983 | Minimum Cost For Tickets | 1 | 30m | 1. dp | none | done | todo | ext
  746 | Min Cost Climbing Stairs | 1 | 5m | 1. dp | none | done | todo | ext
  70 | Climbing Stairs | 1 | 5m | 1. dp | none | done | todo | ext
