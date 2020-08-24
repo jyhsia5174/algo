@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 746 | Min Cost Climbing Stairs | 1 | 5m | 1. dp | none | done | todo | ext
  70 | Climbing Stairs | 1 | 5m | 1. dp | none | done | todo | ext
  198 | House Robber | 1 | 10m | 1. dp | none | done | todo | ext
  256 | Paint House | 2 | 10m | 1. dp | 1. miss input array size == 0 | done | todo | ext
