@@ -1,5 +1,27 @@
 // 300. Longest Increasing Subsequence
+
 class Solution {
+public:
+    int lengthOfLIS(vector<int>& nums) {
+        int n = nums.size();
+        if( n == 0 ) return 0;
+        vector<int> dp;
+        
+        for(auto &v: nums){
+            auto it = lower_bound(dp.begin(), dp.end(), v);
+            if( it == dp.end() ){
+                dp.push_back(v);
+            }
+            else{
+                (*it) = v;
+            }
+        }
+        
+        return dp.size();
+    }
+};
+
+/*class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
@@ -36,4 +58,4 @@ public:
         
         return record.rbegin()->second;
     }
-};
+};*/
