@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 96 | Unique Binary Search Trees | 2 | 10m | 1. dp | 1. logic flaw | done | todo | ext
  64 | Minimum Path Sum | 2 | 15m | 1. dp  | 1. read description more carefully | done | todo | ext
  300\* | Longest Increasing Subsequence | 5 | 1h | 1. dp 2. bi search | 1. implementation error | done | todo | ext
  152 | Maximum Product Subarray | 3 | 30m | 1. greedy | 1. logic error | done | todo | ext
