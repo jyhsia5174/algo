@@ -1,4 +1,26 @@
 // 64. Minimum Path Sum
+
+class Solution {
+public:
+    int minPathSum(vector<vector<int>>& grid) {
+        const int m = grid.size();
+        if( m == 0 ) return 0;
+        const int n = grid[0].size();
+        if( n == 0 ) return 0;
+        
+        vector<int> dp(n+1, numeric_limits<int>::max());
+        dp[1] = 0;
+        
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                dp[j+1] = min(dp[j], dp[j+1]) + grid[i][j];
+            }
+        }
+        
+        return dp[n];
+    }
+};
+
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
