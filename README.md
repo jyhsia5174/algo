@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 647 | Palindromic Substrings | 3 | 23m | 1. dp | logic flaw | done | todo | ext
  279 | Perfect Squares | 1 | 12m | 1. dp | none | done | todo | ext
  96 | Unique Binary Search Trees | 2 | 10m | 1. dp | 1. logic flaw | done | todo | ext
  64 | Minimum Path Sum | 2 | 15m | 1. dp  | 1. read description more carefully | done | todo | ext
