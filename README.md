@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 698\* | Partition to K Equal Sum Subsets | nan | 2h | 1. dp |  | done | todo | ext
  647 | Palindromic Substrings | 3 | 23m | 1. dp | logic flaw | done | todo | ext
  279 | Perfect Squares | 1 | 12m | 1. dp | none | done | todo | ext
  96 | Unique Binary Search Trees | 2 | 10m | 1. dp | 1. logic flaw | done | todo | ext
