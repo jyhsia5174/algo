@@ -2,6 +2,41 @@
 class Solution {
 public:
     bool canPartitionKSubsets(vector<int>& nums, int k) {
+        int n = nums.size();
+        sort(nums.begin(), nums.end());
+        int sum = 0;
+        for(auto &v: nums)
+            sum += v;
+        int target = sum / k;
+        if( sum % k || nums[n-1] > target ) return false;
+        
+        vector<bool> dp(1<<n, false);
+        dp[0] = true;
+        vector<int> total(1<<n, 0);
+        
+        for(int state = 0; state < (1<<n); state++){
+            if(!dp[state]) continue;
+            for(int i = 0; i < n; i++){
+                int future = state | (1<<i);
+                if( state != future && !dp[future] ){
+                    if(nums[i] <= target - (total[state] % target)){
+                        dp[future] = true;
+                        total[future] = total[state] + nums[i];
+                    }
+                    else{
+                        break;
+                    }
+                }
+            }
+        }
+        
+        return dp[(1<<n)-1];
+    }
+};
+
+class Solution {
+public:
+    bool canPartitionKSubsets(vector<int>& nums, int k) {
         int total = 0;
         for(auto &v: nums)
             total += v;
