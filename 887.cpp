@@ -1,4 +1,42 @@
 // 887. Super Egg Drop
+
+// O(NKlogK)
+class Solution {
+public:
+    int superEggDrop(int K, int N) {
+        vector<vector<int>> dp(K+1, vector<int>(N+1, INT_MAX));
+        for(int i = 0; i <= K; i++)
+            dp[i][0] = 0;
+        return recursive(K, N, dp);
+    }
+    
+    int recursive(int K, int N, vector<vector<int>> &dp){
+        if( dp[K][N] != INT_MAX ) return dp[K][N];
+        if( K == 0 || N == 0 ) return dp[K][N];
+        
+        
+        dp[K][N] = INT_MAX;
+        int lo = 0, hi = N-1;
+        while(lo <= hi){
+            int mid = (lo + hi) / 2;
+            int r1 = recursive(K-1, mid, dp);
+            int r2 = recursive(K, N-1-mid, dp);
+            
+            if( r1 < r2 )
+                lo = mid + 1;
+            else
+                hi = mid - 1;
+            
+            if( r1 != INT_MAX && r2 != INT_MAX )
+                dp[K][N] = min( dp[K][N], 1 + max(r1, r2) );
+        }
+        
+        return dp[K][N];
+    }
+
+};
+
+// O(NK^2)
 class Solution {
 public:
     int superEggDrop(int K, int N) {
