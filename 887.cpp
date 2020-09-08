@@ -1,5 +1,29 @@
 // 887. Super Egg Drop
 
+// 
+
+class Solution {
+public:
+    int superEggDrop(int K, int N) {
+        if( N == 0 || N == 1)
+            return N;
+        
+        if(K == 1)
+            return N;
+        
+        int min = INT_MAX, x, res;
+        
+        for(x = 1; x <= N; x++){
+            res = max(superEggDrop(K-1, x-1),
+                     superEggDrop(K, N-x));
+            if(res < min)
+                min = res;
+        }
+        
+        return min + 1;
+    }
+};
+
 // O(NKlogK)
 class Solution {
 public:
