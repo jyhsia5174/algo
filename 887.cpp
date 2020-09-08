@@ -1,5 +1,43 @@
 // 887. Super Egg Drop
 
+// dp with optimal criterion
+
+class Solution {
+public:
+    int superEggDrop(int K, int N) {
+        int dp[K+1][N+1];
+        int optX[K+1];
+        for(int i = 1; i <= K; i++)
+            optX[i] = 1;
+        
+        for(int i = 1; i <= K; i++){
+            dp[i][0] = 0;
+            dp[i][1] = 1;
+        }
+        
+        for(int j = 1; j <= N; j++)
+            dp[1][j] = j;
+        
+        for(int j = 2; j <= N; j++){
+            for(int i = 2; i <= K; i++){
+                dp[i][j] = max( dp[i-1][optX[i]-1], 
+                              dp[i][j - optX[i]]);
+                while( optX[i] + 1 <= j &&
+                      dp[i][j] > max(dp[i-1][optX[i]+1-1], 
+                              dp[i][j - optX[i] - 1]) ){
+                    dp[i][j] = max(dp[i-1][optX[i]+1-1], 
+                              dp[i][j - optX[i] - 1]);
+                    optX[i]++;
+                }
+                
+                dp[i][j] += 1;
+            }
+        }
+        
+        return dp[K][N];
+    }
+};
+
 // dp
 
 class Solution {
