@@ -2,7 +2,8 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
- 887 | Super Egg Drop \* | nan | nan | 1. dp 2. bi search |  | done | todo | ext
+ 516 \* | Longest Palindromic Subsequence | nan | 1h | 1. dp | logic error | read_sol | todo | ext
+ 887 \* | Super Egg Drop \* | nan | nan | 1. dp 2. bi search |  | done | todo | ext
  474 \* | Ones and Zeroes | 5 | 1h | 1. dp  | 1. read problem carefully | done | todo | ext
  698\* | Partition to K Equal Sum Subsets | nan | 2h | 1. dp |  | done | todo | ext
  647 | Palindromic Substrings | 3 | 23m | 1. dp | logic flaw | done | todo | ext
