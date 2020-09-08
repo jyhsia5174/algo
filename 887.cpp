@@ -1,5 +1,40 @@
 // 887. Super Egg Drop
 
+// math solution
+
+class Solution {
+public:
+    int superEggDrop(int K, int N) {
+        int lo = 1, hi = N;
+        int t = N;
+        while( lo <= hi ){
+            int mi = (lo + hi)/2;
+            if( f(mi, K, N) >= N ){
+                hi = mi-1;
+                t = mi;
+            }
+            else{
+                lo = mi+1;
+            }
+        }
+        
+        return t;
+    }
+    
+    int f(int t, int k, int n){
+        int x = 1;
+        int res = 0;
+        for(int i = 1; i <= k; i++){
+            x *= t - (i-1);
+            x /= i;
+            res += x;
+            if( res >= n ) break;
+        }
+        
+        return res;
+    }
+};
+
 // dp with optimal criterion
 
 class Solution {
