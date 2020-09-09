@@ -1,5 +1,37 @@
 // 516. Longest Palindromic Subsequence
 
+// recursive with memerization
+
+class Solution {
+public:
+    int longestPalindromeSubseq(string s) {
+        const int N = s.size();
+        
+        cache.resize(N+1, vector<int>(N, 0));
+        
+        return lps(s, 0, N);
+    }
+    
+    int lps(const string &s, int l, int r ){
+        if( r - l <= 1 ) return r-l;
+        if( cache[r-l][l] != 0 ) return cache[r-l][l];
+        
+        int L = 0;
+        if( s[l] == s[r-1] )
+            L = max(L, lps(s, l+1, r-1) + 2);
+        
+        L = max(L, max(lps(s, l, r-1), lps(s, l+1, r)) );
+        
+        cache[r-l][l] = L;
+        return L;
+    }
+    
+    vector<vector<int>> cache;
+};
+
+// dp
+
+
 class Solution {
 public:
     int longestPalindromeSubseq(string s) {
