@@ -1,5 +1,76 @@
 // Maximum Sum Increasing Subsequence
 // https://www.geeksforgeeks.org/maximum-sum-increasing-subsequence-dp-14/
+
+
+// O(n log n)
+
+#include <bits/stdc++.h> 
+using namespace std;
+
+void solve(){
+    int N;
+    cin >> N;
+    vector<int> A(N, 0);
+    for(int i = 0; i < N; i++)
+        cin >> A[i];
+    
+    int ans = 0;
+    map<int, int> M;
+    for(int i = 0; i < N; i++){
+        /*for(auto it = M.begin(); it != M.end(); it++)
+            cout << "(" << it->first << ", " << it->second << "\t";
+        cout << endl;*/
+        auto it = M.lower_bound(A[i]);
+        if( it == M.end() ){
+            if( M.size() >= 1 ){
+                it--;
+                M[A[i]] = A[i] + (it)->second;
+            }
+            else
+                M[A[i]] = A[i];
+        }
+        else{
+            if( it == M.begin() ){
+                M[A[i]] = A[i];
+            }
+            else{
+                it--;
+                M[A[i]] = A[i] + (it)->second;
+            }
+        }
+        it = M.find( A[i] );
+        int val = it->second;
+        ans = max(ans, val);
+        it++;
+        auto it2 = it;
+        for(; it2 != M.end(); it2++)
+            if( it2->second > val )
+                break;
+        M.erase(it, it2);
+    }
+    
+    cout << ans << endl;
+    
+}
+
+int main() {
+	//code
+	
+	int T;
+	cin >> T;
+	int t = 0;
+	while( t < T  ){
+	    solve();
+	    t++;
+	}
+	return 0;
+}
+
+
+
+
+// O(n^2)
+
 #include <bits/stdc++.h> 
 using namespace std;
 
