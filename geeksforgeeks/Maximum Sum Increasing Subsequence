@@ -1,0 +1,42 @@
+// Maximum Sum Increasing Subsequence
+// https://www.geeksforgeeks.org/maximum-sum-increasing-subsequence-dp-14/
+#include <bits/stdc++.h> 
+using namespace std;
+
+void solve(){
+    int N;
+    cin >> N;
+    vector<int> A(N, 0);
+    for(int i = 0; i < N; i++)
+        cin >> A[i];
+    
+    int ans = 0;
+    vector<int> dp(N, 0);
+    
+    for(int i = 0; i < N; i++){
+        int max_sum = A[i];
+        for(int j = 0; j < i; j++){
+            if( A[j] < A[i] )
+                max_sum = max(max_sum, dp[j] + A[i]);
+        }
+        
+        dp[i] = max_sum;
+        ans = max( max_sum, ans );
+    }
+    
+    cout << ans << endl;
+}
+
+int main() {
+	//code
+	
+	int T;
+	cin >> T;
+	int t = 0;
+	while( t < T  ){
+	    solve();
+	    t++;
+	}
+	return 0;
+}
+
