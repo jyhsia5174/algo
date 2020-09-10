@@ -1,0 +1,58 @@
+
+// Longest Bitonic subsequence
+// https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence/0
+
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+vector<int> LIS( int N, const vector<int> &A){
+    vector<int> res(N, 1);
+    vector<int> sq;
+    
+    for(int i = 0; i < N; i++){
+        auto it = lower_bound(sq.begin(), sq.end(), A[i]);
+        if( it == sq.end() ){
+            sq.push_back(A[i]);
+            res[i] = sq.size();
+        }
+        else{
+            (*it) = A[i];
+            res[i] = distance(sq.begin(), it) + 1;
+        }
+    }
+    
+    return res;
+}
+
+void solve(){
+    int N;
+    cin >> N;
+    vector<int> A(N);
+    for(int i = 0; i < N; i++)
+        cin >> A[i];
+    
+    vector<int> Ar(A.rbegin(), A.rend());
+    
+    auto res1 = LIS( N, A );
+    auto res2 = LIS( N, Ar );
+    
+    int maxL = 0;
+    for(int i = 0; i < N; i++){
+        maxL = max( maxL, res1[i] + res2[N-1-i] );
+    }
+    maxL -= 1;
+    
+    cout << maxL << endl;
+}
+
+int main() {
+	//code
+	int T, t = 0;
+	cin >> T;
+	while( t < T ){
+	    solve();
+	    t++;
+	}
+	return 0;
+}
