@@ -8,6 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+// iteration
 class Solution {
     public ListNode reverseList(ListNode head) {
         if( head == null )
@@ -24,5 +25,30 @@ class Solution {
         }
         
         return tailhead;
+    }
+}
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+// recursive
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        return subroutine( null, head );
+    }
+    
+    private ListNode subroutine( ListNode reverseListHead , ListNode head ){
+        if( head == null )
+            return reverseListHead;
+        ListNode nextHead = head.next;
+        head.next = reverseListHead;
+        return subroutine( head, nextHead );
     }
 }
