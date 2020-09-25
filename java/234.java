@@ -9,6 +9,8 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+// time O(n), space O(1)
 class Solution {
     public boolean isPalindrome(ListNode head) {
         int N = 0;
@@ -38,5 +40,34 @@ class Solution {
             halfHead = halfHead.next;
         }
         return true;
+    }
+}
+
+// time O(n), space O(n)
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    private ListNode frontPointer;
+    
+    private boolean recursivelyCheck(ListNode currentEndNode){
+        if( currentEndNode != null ){
+            if( ! recursivelyCheck( currentEndNode.next ) ) return false;
+            if( frontPointer.val != currentEndNode.val ) return false;
+            frontPointer = frontPointer.next;
+        }
+        return true;
+    }
+    
+    public boolean isPalindrome(ListNode head) {
+        frontPointer = head;
+        return recursivelyCheck(head);
     }
 }
