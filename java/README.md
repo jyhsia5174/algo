@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 9 | Palindrome Number | 10 | 10m | 1. palindrome | 1. value over flow 2. \*= 10 not <<= | done | todo | ext
  412 | Fizz Buzz | 1 | 5m | 1. mod | none | done | todo | ext
  13 | Roman to Integer | 1 | 10m | 1. parsing | none | done | todo | ext
  283 | Move Zeroes | 1 | 10m | array | 1. it seems java do not have swap method | done | todo | ext
