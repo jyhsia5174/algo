@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 387 | First Unique Character in a String | 3 | 10m | 1. hash table | 1.  int[] arr = new int[10] 2. s.length() and s.charAt(i) | done | todo | ext
  136\* | Single Number | 1 | 10m | 1. xor operation | no idea how to use O(1) | done | - | -
  155 | Min Stack | 2 | 10m | 1. min Stack | 1. Stack use peek() not top() | done | todo | ext
  9 | Palindrome Number | 10 | 10m | 1. palindrome | 1. value over flow 2. \*= 10 not <<= | done | todo | ext
