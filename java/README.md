@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 811 | Subdomain Visit Count | 2 | 20m | 1. hash table | 1. string parsing regular expression | done | todo | ext
  453 | Minimum Moves to Equal Array Elements | 2 | 15m | 1. math | 1. new HashMap<Integer, Integer>(); 2. int[] arr; arr.length | done | todo | ext
  203 | Remove Linked List Elements | 1 | 1. 10m | 1. link list | none | done | todo | 1. use dummy head (sentinel). A good practice.
  387 | First Unique Character in a String | 3 | 10m | 1. hash table | 1.  int[] arr = new int[10] 2. s.length() and s.charAt(i) | done | todo | ext
