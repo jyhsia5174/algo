@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 35 | Search Insert Position | 1 | 8m | 1. binary search | 1. still not clear with design of bisearch. | done | todo | ext
  28 | Implement strStr() | nan | nan | 1. Rabin Karp | 1. not familiar with Rabin Karp | done | 1. create Rabin Karp codebook | ext
  27 | Remove Element | 1 | 10m | 1. tow pointer | 1. String.replaseAll <br> 2. Scanner.nextLine() <br> 3. public static void main(String[] arg) | done | todo | ext
  26 | Remove Duplicates from Sorted Array | 1 | 10m | 1. tow pointer | none | done | todo | ext
