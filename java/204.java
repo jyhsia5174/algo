@@ -23,3 +23,23 @@ class Solution {
         return primes.size();
     }
 }
+
+class Solution {
+    public int countPrimes(int n) {
+        boolean[] isPrimes = new boolean[n];
+        for(int i = 2; i < n; i++)
+            isPrimes[i] = true;
+        
+        int count = 0;
+        for(int i = 2; i < n; i++){
+            if( isPrimes[i] ){
+                count++;
+                
+                for(int j = 2*i; j < n; j+=i)
+                    isPrimes[j] = false;
+            }
+        }
+        
+        return count;
+    }
+}
