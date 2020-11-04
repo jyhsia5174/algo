@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 10 | Regular Expression Matching | 2 | 50m | 1. dp | miss 1 "." can match | done | todo | ext
  20 | Valid Parentheses | 2 | 7m | 1. string 2. stack | 1. stack must not be empty | done | todo | ext
  674 | Longest Continuous Increasing Subsequence | 2 | 10m | 1. dp | err_note | read_sol | todo | ext
  343 | Integer Break | 1 | 15m | 1. dp |  | none | todo | ext
