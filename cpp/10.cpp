@@ -1,4 +1,57 @@
 // 10. Regular Expression Matching
+
+class Solution {
+public:
+    bool isMatch(string _s, string _p) {
+        s = _s;
+        p =  _p;
+        for(int i = 0; i < 26; i++)
+            ch.insert( 'a' + i );
+        ch.insert('.');
+        
+        dp.resize( _s.size() + 1, vector<int>(_p.size() + 1, -1) );
+        return check(0, 0);
+    }
+    
+    bool check( int si, int pi){
+        if( dp[si][pi] != -1 )
+            return dp[si][pi];
+
+        if( pi == p.size() ){
+            dp[si][pi] = (si == s.size()) ? 1 : 0;
+            return dp[si][pi];
+        }
+        
+        bool one_match;
+        if( (si < s.size()) && (s[si] == p[pi] || p[pi] == '.') )
+            one_match = true;
+        else
+            one_match = false;
+        
+        if( pi + 1 < p.size() && p[pi + 1] == '*' ){
+            if( check( si, pi+2 ) || 
+               ( one_match && check( si+1, pi) ))
+                dp[si][pi] = 1;
+            else
+                dp[si][pi] = 0;
+        }
+        else{
+            if( one_match && check( si+1, pi+1 ) )
+                dp[si][pi] = 1;
+            else
+                dp[si][pi] = 0;
+        }
+        
+        return dp[si][pi];
+    }
+    
+private: 
+    string s, p;
+    vector<vector<int>> dp;
+    unordered_set<char> ch;
+};
+
+
 class Solution {
 public:
     bool isMatch(string s, string p) {
