@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 1335 \* | Minimum Difficulty of a Job Schedule | 2 | 55m | 1. dp | Wrong initialization | none | none | 
  312 \* | Burst Balloons | 1 | 50m | dp | 1. no idea | done | top-down approach | ext
  10 | Regular Expression Matching | 2 | 50m | 1. dp | miss 1 "." can match | done | todo | ext
  20 | Valid Parentheses | 2 | 7m | 1. string 2. stack | 1. stack must not be empty | done | todo | ext
