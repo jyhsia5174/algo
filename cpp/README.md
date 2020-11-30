@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 1531 \* | String Compression II | 10 | 2h | 1. dp | tle | none | todo | ext
  1235 \* | Maximum Profit in Job Scheduling | 10 | 2h | 1. dp | 1. TLE  | none | todo | ext
  1335 \* | Minimum Difficulty of a Job Schedule | 2 | 55m | 1. dp | Wrong initialization | none | none | 
  312 \* | Burst Balloons | 1 | 50m | dp | 1. no idea | done | top-down approach | ext
