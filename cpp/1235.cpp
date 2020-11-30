@@ -55,3 +55,43 @@ public:
         return dp.rbegin()->second;
     }
 };
+
+
+class Solution {
+public:
+    int jobScheduling(vector<int>& S, vector<int>& E, vector<int>& P) {
+        int n = S.size();
+        
+        int* idx = new int[n];
+        iota(idx, idx+n, 0);
+        sort(idx, idx+n, [&](const int& l, const int &r){
+            return E[l] < E[r];
+        });
+        
+        vector<int> ans(n,0);
+        ans[0] = P[idx[0]];
+        for(int i = 1; i < n; i++){
+            ans[i] = P[idx[i]];
+            
+            int l = 0, r = i-1;
+            int j = -1;
+            while( l <= r ){
+                int m = (l+r) / 2;
+                if( S[idx[i]] >=  E[idx[m]] ){
+                    j = m;
+                    l = m + 1;
+                }
+                else{
+                    r = m - 1;
+                }
+            }
+            if( j != -1 )
+                ans[i] = ans[j] + P[idx[i]];
+            
+            ans[i] = max( ans[i], ans[i-1] );
+        }
+        
+        delete [] idx;
+        return ans[n-1];
+    }
+};
