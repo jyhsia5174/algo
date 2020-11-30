@@ -33,3 +33,25 @@ public:
         return dp[0];
     }
 };
+
+
+class Solution {
+public:
+    int jobScheduling(vector<int>& S, vector<int>& E, vector<int>& P) {
+        int n = S.size();
+        
+        vector<vector<int>> A;
+        for(int i = 0; i < n; i++)
+            A.push_back( {E[i], S[i], P[i]} );
+        
+        sort(A.begin(), A.end());
+        map<int, int> dp{ {0, 0} };
+        for(auto & job: A){
+            int profit_sum = prev(dp.upper_bound(job[1]))->second + job[2];
+            if( profit_sum > dp.rbegin()->second )
+                dp[job[0]] = profit_sum;
+        }
+        
+        return dp.rbegin()->second;
+    }
+};
