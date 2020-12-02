@@ -56,3 +56,43 @@ public:
         return dp[key];
     }
 };
+
+class Solution {
+public:
+    int getLengthOfOptimalCompression(string s, int k) {
+        int dp[101][101];
+        memset( dp, -1, sizeof(dp) );
+        return solve(s, 0, k, dp);
+    }
+    
+    int len( int num ){
+        if( num == 1 ) return 0;
+        else if( num < 10  ) return 1;
+        else if( num < 100 ) return 2;
+        return 3;
+    }
+    
+    int solve( string &s, int i, int k, int dp[101][101] ){
+        if( k < 0 ) return 1<<29;
+        if( k >= s.size() - i ) return 0;
+        if( dp[i][k] != -1 ) return dp[i][k];
+        
+        int res = solve( s, i+1, k-1, dp );
+        int cnt = 0;
+        int c = s[i];
+        int t = k;
+        
+        for(int j = i; j < s.size(); j++){
+            if( s[j] == c ){
+                cnt++;
+                res = min( res, 1 + len(cnt) + solve( s, j+1, t, dp ) );
+            }
+            else{
+                if( --t < 0 )
+                    break;
+            }
+        }
+        
+        return dp[i][k] = res;
+    }
+};
