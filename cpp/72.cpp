@@ -74,3 +74,34 @@ public:
 private:
     const int INF = 1<<29;
 };
+
+class Solution {
+public:
+    int minDistance(string s1, string s2) {
+        int n1 = s1.size();
+        int n2 = s2.size();
+        
+        int dp[n1+1][2];
+        dp[n1][n2%2] = 0;
+        for( int i = 0; i < n1; i++ )
+            dp[i][n2%2] = n1 - i;
+        
+        for( int j = n2-1; j >= 0; j-- ){
+            dp[n1][j%2] = n2 - j; 
+            dp[n1][(j+1)%2] = n2 - (j+1);
+            for( int i = n1-1; i>=0; i-- ){
+                if( s1[i] == s2[j] ){
+                    dp[i][j%2] = dp[i+1][(j+1)%2];
+                }
+                else{
+                    dp[i][j%2] = 1 + min( dp[i][(j+1)%2], min(dp[i+1][j%2], dp[i+1][(j+1)%2]) );
+                }
+            }
+        }
+        
+        return dp[0][0];
+    }
+    
+private:
+    const int INF = 1<<29;
+};
