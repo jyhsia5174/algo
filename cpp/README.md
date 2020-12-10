@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 1326 | Minimum Number of Taps to Open to Water a Garden | 5 | 1h | 1. dp | 1. problem misunderstanding | none | todo | ext
  72 | Edit Distance | 1 | 17m | 1. dp | none | done | try bottom-up and speed up | ext
  1531 \* | String Compression II | 10 | 2h | 1. dp | tle | none | todo | ext
  1235 \* | Maximum Profit in Job Scheduling | 10 | 2h | 1. dp | 1. TLE  | none | todo | ext
