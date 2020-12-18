@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 44 | Wildcard Matching | 5 | 37m | 1. patern match 2. string 3. dp | 1. misunderstand problem 2. read all sample input first. | read_sol | todo | ext
  871 | Minimum Number of Refueling Stops | 1 | 11m | 1. priority_queue | none | done | todo | ext
  741 | Cherry Pickup | 2 | nan | 1. dp | 1. no valid return value should be 0 not -1. | done | todo | ext
  115 | Distinct Subsequences | 2 | 15m | 1. dp | 1. int overflow | read_sol | todo | ext
