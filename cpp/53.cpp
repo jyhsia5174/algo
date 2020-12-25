@@ -22,3 +22,29 @@ public:
         return max_sum;
     }
 };
+
+// 53. Maximum Subarray --> Next: 363. Max Sum of Rectangle No Larger Than K
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        const int n = nums.size();
+        
+        int sum = 0;
+        int L = 0;
+        int res = nums[0];
+        
+        for( int i = 0; i < n; i++ ){
+            res = max( res, nums[i] );
+            if( sum + nums[i] > 0 ){
+                sum += nums[i];
+                res = max( res, sum );
+            }
+            else{
+                L = 0;
+                sum = 0;
+            }
+        }
+        
+        return res;
+    }
+};
