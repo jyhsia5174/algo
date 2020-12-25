@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 53 | Maximum Subarray | 5 | 13m | 1. dp | implementation error | done | 363. Max Sum of Rectangle No Larger Than K | subMatrix
  32 | Longest Valid Parentheses | 3 | 58m | 1. parenthesis | 1. may need update max outside of while loop | read_sol | todo | ext
  44 | Wildcard Matching | 5 | 37m | 1. patern match 2. string 3. dp | 1. misunderstand problem 2. read all sample input first. | read_sol | todo | ext
  871 | Minimum Number of Refueling Stops | 1 | 11m | 1. priority_queue | none | done | todo | ext
@@ -41,7 +42,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  198 | House Robber | 1 | 10m | 1. dp | none | done | todo | ext
  256 | Paint House | 2 | 10m | 1. dp | 1. miss input array size == 0 | done | todo | ext
  1025 | Divisor Game | 1 | 11m | 1. dp  | none | done | todo | ext
- 53 | Maximum Subarray | 5 | 13m | 1. dp | implementation error | done | todo | ext
  838 | Push Dominoes | 5 | 37m | 1. two pointer  | logic error | done | todo | ext
  1230 | Toss Strange Coins| 10 | 36m | 1. dp | logic error | done | more dp | ext
  1 | Two Sum | 1 | - | Hash Table | - | done | - | -
