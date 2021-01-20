@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ id | Next Closest Time | nan | 42m | string | 1. char convert to string | read_sol | todo | ext
  id | Minimum Window Substring | 1 | 30m | topics | err_note | read_sol | todo | ext
  id | Jump Game | 1 | 10m | topics | err_note | read_sol | todo | ext
  id | Multiply Strings | nan | 50m | topics | err_note | read_sol | todo | ext
