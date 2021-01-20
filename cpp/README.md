@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 222\* | Count Complete Tree Nodes | 2 | 30m, 47m | 1. binary search <br> 2. tree | 1. level counting error | done | - | -
  21 | Merge Two Sorted Lists | 1 | 5m | 1. merge sorted linked list | none | read_sol | todo | ext
  id | Add Two Numbers | 1 | 10m | 1. linked list | 1. use nullptr instead of NULL | read_sol | todo | ext
  id\* | Minimum Cost to Hire K Workers | 3 | 1h03m | 1. priority que | 1. priority que cmp function need to use decltype(cmp) and with construct arg cmp | read_sol | todo | ext
@@ -68,7 +69,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  162 | Find Peak Element | 7 | 1h | Binary Search | 1. Wrong proof <br> 2. Miss INT_MIN corner case | done | try iterative bi search  | - 
  202 | Happy Number | 2 | 27m | Hash Table & Math | misused %= as /= | done | Floyd's Cycle-Finding Algorithm | -
  221\* | Maximal Square | nan | 2h | Dynamic Programming | Not come up solution | done | - | -
- 222 | Count Complete Tree Nodes | 2 | 30m | 1. binary search <br> 2. tree | - | done | - | -
  271 | Encode and Decode Strings | nan | 2h | encoding | 1. char vs unsigned char | done | - | -
  295 | Find Median from Data Stream | nan | 2h00m | 1. head 2. design | avl tree subtree may be null | - | - | -
  297 | Serialize and Deserialize Binary Tree | nan | 1h | tree, design | 1. pointer is pass by copy <br> 2. intToS sToInt | done | - | -
