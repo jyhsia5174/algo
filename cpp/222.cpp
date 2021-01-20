@@ -4,6 +4,53 @@
  *     int val;
  *     TreeNode *left;
  *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    int countNodes(TreeNode* root) {
+        if( root == nullptr )
+            return 0;
+        
+        // get max level
+        int L = level(root);
+        int res = 0;
+        TreeNode* curNode = root;
+        while( L >= 0 ){
+            if( level(curNode->right) + 1 == L ){
+                res += 1 << L;
+                curNode = curNode->right;
+            }
+            else{
+                res += 1 << (L-1);
+                curNode = curNode->left;
+            }
+            L--;
+        }
+        
+        return res;
+    }
+    
+    int level(TreeNode* node){
+        int L = -1;
+        while( node != nullptr ){
+            L++;
+            node = node->left;
+        }
+        return L;
+    }
+};
+
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
