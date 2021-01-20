@@ -1,4 +1,42 @@
 // 124. Binary Tree Maximum Path Sum
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    int maxPathSum(TreeNode* root) {
+        maxSum( root );
+        return res;
+    }
+    
+    int maxSum( TreeNode* node ){
+        if( node == nullptr )
+            return 0;
+        
+        int l = maxSum( node->left );
+        int r = maxSum( node->right );
+        
+        res = max( res, node->val );
+        res = max( res, l + node->val );
+        res = max( res, r + node->val );
+        res = max( res, l + r + node->val );
+        
+        return max( node->val, max(node->val + l, node->val + r ));
+    }
+    
+    int res = -(1<<29);
+};
+
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
