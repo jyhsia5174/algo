@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ id | Meeting Rooms II | 2 | 12m | 1. sort 2. priority queue | 1. lambda function should not have name... 2. priority queue use greater<int> to invert | read_sol | todo | ext
  id | Trapping Rain Water | 2 | 44m | topics | 1. stack empty not handled | read_sol | todo | ext
  id | Valid Parentheses | 1 | 10m | stack | err_note | read_sol | todo | ext
  id | Find And Replace in String | 2 | 21m | topics | 1. c++ lambda function 2. string compare method | read_sol | todo | ext
