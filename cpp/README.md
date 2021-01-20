@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ id | Valid Parentheses | 1 | 10m | stack | err_note | read_sol | todo | ext
  id | Find And Replace in String | 2 | 21m | topics | 1. c++ lambda function 2. string compare method | read_sol | todo | ext
  id | Next Closest Time | nan | 42m | string | 1. char convert to string | read_sol | todo | ext
  id | Minimum Window Substring | 1 | 30m | topics | err_note | read_sol | todo | ext
