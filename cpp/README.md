@@ -2,7 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
- id | Add Two Numbers | 1 | 10m | 1. linked list | none | read_sol | todo | ext
+ id | Add Two Numbers | 1 | 10m | 1. linked list | 1. use nullptr instead of NULL | read_sol | todo | ext
  id\* | Minimum Cost to Hire K Workers | 3 | 1h03m | 1. priority que | 1. priority que cmp function need to use decltype(cmp) and with construct arg cmp | read_sol | todo | ext
  id | Meeting Rooms II | 2 | 12m | 1. sort 2. priority queue | 1. lambda function should not have name... 2. priority queue use greater<int> to invert | read_sol | todo | ext
  id | Trapping Rain Water | 2 | 44m | topics | 1. stack empty not handled | read_sol | todo | ext
