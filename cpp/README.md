@@ -2,7 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
- ~~124 | Binary Tree Maximum Path Sum | 1 | 10m | 1. tree | none | read_sol | todo | ext~~
+ ~~124~~ | Binary Tree Maximum Path Sum | 1 | 10m | 1. tree | none | read_sol | todo | ext
  21 | Merge Two Sorted Lists | 1 | 5m | 1. merge sorted linked list | none | read_sol | todo | ext
  id | Add Two Numbers | 1 | 10m | 1. linked list | 1. use nullptr instead of NULL | read_sol | todo | ext
  id\* | Minimum Cost to Hire K Workers | 3 | 1h03m | 1. priority que | 1. priority que cmp function need to use decltype(cmp) and with construct arg cmp | read_sol | todo | ext
