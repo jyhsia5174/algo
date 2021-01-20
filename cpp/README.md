@@ -2,7 +2,6 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
- 124 | Binary Tree Maximum Path Sum | 1 | 10m | 1. tree | none | read_sol | todo | ext
  21 | Merge Two Sorted Lists | 1 | 5m | 1. merge sorted linked list | none | read_sol | todo | ext
  id | Add Two Numbers | 1 | 10m | 1. linked list | 1. use nullptr instead of NULL | read_sol | todo | ext
  id\* | Minimum Cost to Hire K Workers | 3 | 1h03m | 1. priority que | 1. priority que cmp function need to use decltype(cmp) and with construct arg cmp | read_sol | todo | ext
@@ -139,7 +138,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 269\* | Alien Dictionary | nan | 2h30m | 1. Graph 2. Topology sort | Not familiar with problem | done | - | -
 88 | Merge Sorted Array | 1 | 12m | 1. two pointer | - | done | - | -
 415 | Add Strings | 1 | 10m | 1. two pointer | - | done | - | -
-~~124\*~~ | Binary Tree Maximum Path Sum | nan | 1h40m | 1. tree 2. dfs | - | done | - | a
+~~124\*~~ | Binary Tree Maximum Path Sum | nan, 1 | 1h40m, 10m | 1. tree 2. dfs | - | done | - | a
 238 | Product of Array Except Self | 1 | 16m | 1. array | none | read_sol | todo | ext
 953 | Verifying an Alien Dictionary | 3 | 14m | 1. hash table | sort cannot use non-static function as cmp | done | - | -
 56 | Merge Intervals | 1 | 11m | 1. array 2. sort | none | done | todo | ext
@@ -175,7 +174,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 896 | Monotonic Array | 1 | 4m | 1. array | none | done | todo | ext
 1026 | Maximum Difference Between Node and Ancestor| 2 | 18m | 1. tree 2. dfs | 1. typing error | none | todo | ext
 825 | Friends Of Appropriate Ages | 1 | 17m | 1. array | none | done | todo | ext
-200 | Number of Islands | 1 | 14m | 1. dfs | none | done | todo | ext
+~~200~~ | Number of Islands | 1, 1 | 14m, 7m | 1. dfs | none | done | todo | ext
 2 | Add Two Numbers | 1 | 12m | 1. linked list | none | done | todo | ext
 937 | Reorder Data in Log Files | nan | 29m | 1. string | 1. string::npos != s.size() 2. key conflict | done | todo | ext
 146\* | LRU Cache | 10 | 35m | 1. link list 2. unordered_map | 1. not familiar with stl link list | done | todo | ext
