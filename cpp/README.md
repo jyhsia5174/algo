@@ -214,4 +214,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1429 | First Unique Number | 2 | 13m | hash table | 1. code logic error | done | todo | ext
 353 | Design Snake Game | nan | 1h | 1. hash table | 1. read question more carefully | none | todo | ext
 212\* | Word Search II | nan | 3h | 1. string 2. backstracing | 1. not familiar with backtracing | done | todo | ext
-| try | time | topics | err_note | read_sol | todo | ext
+id | prob_name | try | time | topics | err_note | read_sol | todo | ext
