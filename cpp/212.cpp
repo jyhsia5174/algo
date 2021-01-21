@@ -1,4 +1,81 @@
 // 212. Word Search II
+class TrieNode{
+public:
+    TrieNode *child[26];
+    bool isWord = false;
+    
+    TrieNode(){
+        for(int i = 0; i < 26; i++)
+            child[i] = nullptr;
+    }
+};
+
+class Solution {
+public:
+    vector<string> findWords(vector<vector<char>>& board, vector<string>& words) {
+        
+        TrieNode root;
+        for(auto &w: words)
+            insert(&root, w);
+        
+        unordered_set<string> res;
+        m = board.size();
+        n = board[0].size();
+        vector<vector<bool>> visited( m, vector<bool>(n, false));
+        
+        for(int i = 0; i < m; i++)
+            for(int j = 0; j < n; j++)
+                backtracing("", &root, res, board, visited, i, j);
+        
+        vector<string> ans;
+        for(auto &w: res)
+            ans.push_back(w);
+        
+        return ans;
+    }
+    
+    void backtracing(string s, TrieNode *node, unordered_set<string> &res, const vector<vector<char>>& B, vector<vector<bool>>& visited, int x, int y){
+        if( node == nullptr )
+            return;
+        
+        visited[x][y] = true;
+        
+        int c = B[x][y] - 'a';
+        if( node->child[c] != nullptr ){
+            s = s + B[x][y];
+            if( node->child[c]->isWord )
+                res.insert(s);
+            
+            for(int d = 0; d < 4; d++){
+                int xx = x + dx[d], yy = y + dy[d];
+                if( xx >= 0 && xx < m && yy >= 0 && yy < n && !visited[xx][yy] )
+                    backtracing(s, node->child[c], res, B, visited, xx, yy);
+            }
+        }
+        
+        visited[x][y] = false;
+    }
+    
+    void insert(TrieNode *node, const string &w){
+        for(int i = 0; i < w.size(); i++){
+            int c = w[i] - 'a';
+            
+            if( node->child[c] == nullptr )
+                node->child[c] = new TrieNode();
+            
+            node = node->child[c];
+        }
+        
+        node->isWord = true;
+    }
+    
+private:
+    int m, n;
+    vector<int> dx{0, 0, -1, 1};
+    vector<int> dy{1, -1, 0, 0};
+};
+
+// 212. Word Search II
 struct node{
 public:
     string word;
