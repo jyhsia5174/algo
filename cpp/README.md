@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 212\* | Word Search II | nan, 2 | 3h, 51m | 1. string 2. backstracing | 1. not familiar with backtracing | done | todo | ext
  425 | Word Squares | 1 | 43m | 1. string 2. unordered map 3. backtracing | none | read_sol | todo | ext
  ~~951~~ | Flip Equivalent Binary Trees | 3 <br> 2 | 45m <br> 12m | tree | 1. miss tree traverse NULL leaf detection | done | - | -
  489 | Robot Room Cleaner | 1 <br> 8 | 1h <br> 1h05m | dfs | - | done | - | -
@@ -214,5 +215,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1091 | Shortest Path in Binary Matrix | 5 | 10m | 1. bfs | 1. ignore 0, 0 case | none | todo | ext
 1429 | First Unique Number | 2 | 13m | hash table | 1. code logic error | done | todo | ext
 353 | Design Snake Game | nan | 1h | 1. hash table | 1. read question more carefully | none | todo | ext
-212\* | Word Search II | nan | 3h | 1. string 2. backstracing | 1. not familiar with backtracing | done | todo | ext
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
