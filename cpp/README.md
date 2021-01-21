@@ -2,7 +2,8 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
- 394\** | Decode String | nan | 1h20m, 29m | parser | 1. Not clear about LL parser <br> 2. s.find_first_of( "c", pos ) <br> 3. read example more carefully <br> 4. isalpha(int c) <br> 5. return i++ != return i+1 | - | - | -
+ ~~543~~ | Diameter of Binary Tree | 3, 1 | 10m, 5m | 1. tree | typing error | done | todo | ext
+ 394\** | Decode String | nan, 2 | 1h20m, 29m | parser | 1. Not clear about LL parser <br> 2. s.find_first_of( "c", pos ) <br> 3. read example more carefully <br> 4. isalpha(int c) <br> 5. return i++ != return i+1 | - | - | -
  222\* | Count Complete Tree Nodes | 2 | 30m, 47m | 1. binary search <br> 2. tree | 1. level counting error | done | - | -
  21 | Merge Two Sorted Lists | 1 | 5m | 1. merge sorted linked list | none | read_sol | todo | ext
  id | Add Two Numbers | 1 | 10m | 1. linked list | 1. use nullptr instead of NULL | read_sol | todo | ext
@@ -150,7 +151,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 986 | Interval List Intersections| 3 | 20m | 1. two pointer | 1. logic error | done | todo | ext
 236 | Lowest Common Ancestor of a Binary Tree | 1 | 18m | 1. tree 2. lca | none | done | todo | ext
 173 | Binary Search Tree Iterator | 1 | 30m | 1. tree traversal using stack | none | done | todo | ext
-543 | Diameter of Binary Tree | 3 | 10m | 1. tree | typing error | done | todo | ext
 438 | Find All Anagrams in a String | 1 | 17m | hash table | none | done | todo | ext
 187 | Repeated DNA Sequences| 3 | 10m | hash table | hash value reverse problem with 0 | done | todo | ext
 987 | Vertical Order Traversal of a Binary Tree| 4 | 20m | hash_table | 1. misunderstand the Question | done | todo | ext
