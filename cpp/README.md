@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 394\** | Decode String | nan | 1h20m, 29m | parser | 1. Not clear about LL parser <br> 2. s.find_first_of( "c", pos ) <br> 3. read example more carefully <br> 4. isalpha(int c) <br>  | - | - | -
  222\* | Count Complete Tree Nodes | 2 | 30m, 47m | 1. binary search <br> 2. tree | 1. level counting error | done | - | -
  21 | Merge Two Sorted Lists | 1 | 5m | 1. merge sorted linked list | none | read_sol | todo | ext
  id | Add Two Numbers | 1 | 10m | 1. linked list | 1. use nullptr instead of NULL | read_sol | todo | ext
@@ -122,7 +123,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  1345 | Jump Game IV | nan | 1h | bfs | 1. Create unneccesary arry with length N | - | - | -
  593 | Valid Square | 2 | 20m | geometry | miss 0, 0, 0, 0 case | - | - | -
 399 | Evaluate Division | 3 | 50m | dfs | 1. unordered_map using pair need its own hash function. | - | try using union_set method | -
-394\* | Decode String | nan | 1h20m | parser | 1. Not clear about LL parser | - | - | -
 85 | Maximal Rectangle | 2 | 40m | dp | 1. input data is a char not int value. | done | todo | ext
 914 | X of a Kind in a Deck of Cards | 2 | 9m | 1. math (gcd) | map.begin()->second | done | - | -
 1376 | Time Needed to Inform All Employees | nan | 20m | bfs | 1. access queue element after pop | - | - | -
