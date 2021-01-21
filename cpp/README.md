@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 489 | Robot Room Cleaner | 1 <br> 8 | 1h <br> 1h05m | dfs | - | done | - | -
  ~~124\*~~ | Binary Tree Maximum Path Sum | nan <br> 1 | 1h40m <br> 10m | 1. tree 2. dfs | - | done | - | a
  ~~200~~ | Number of Islands | 1 <br> 1 | 14m <br> 7m | 1. dfs | none | done | todo | ext
  ~~543~~ | Diameter of Binary Tree | 3 <br> 1 | 10m <br> 5m | 1. tree | typing error | done | todo | ext
@@ -85,7 +86,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  362 | Design Hit Counter | nan | ?? | Design | array indexing | none | - | -
  459\* | Repeated Substring Pattern | nan | nan | string | 1. try too complicated method | none | - | built longest proper prefix
  465 | Optimal Account Balancing | 3 | 1h05m | dfs | - | - | - | -
- 489 | Robot Room Cleaner | 1 | 1h | dfs | - | done | - | -
  552 | Student Attendance Record II | 5 | 1h30m | dp | 1. miss understand Q | - | - | -
  659\* | Split Array into Consecutive Subsequences | nan | 3h | greedy | 1. i++ vs ++i <br> 2. Miss end case <br> 3. if( a- b ) not equiv if( a > b ) | done | - | -
  727 | Minimum Window Subsequence | 3 | 27m | 1. dp 2. sliding window | - | done | - | -
