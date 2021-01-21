@@ -1,4 +1,49 @@
 // 394. Decode String
+
+
+class Solution {
+public:
+    string decodeString(string s) {
+        int i = 0;
+        int n = s.size();
+        
+        string res = "";
+        while( i < n ){
+            i = parse(s, i, res);
+        }
+        
+        return res;
+    }
+    
+    int parse(const string &s, int i, string &res){
+        // parse single alphabat
+        if( isalpha(s[i]) ){
+            res += s[i];
+            return i+1;
+        }
+        
+        // recursively parse encoded string
+        int j = s.find_first_of("[", i);
+        int repeat = stoi(s.substr(i, j - i));
+        
+        j+=1;
+        string r_str = "";
+        while( s[j] != ']' ){
+            j = parse(s, j, r_str);
+        }
+        
+        while(repeat > 0){
+            res += r_str;
+            repeat--;
+        }
+        
+        return j+1;
+    }
+};
+
+
+// old solution
+
 class Solution {
 public:
     string decodeString(string s) {
