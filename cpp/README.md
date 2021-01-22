@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 146\* | LRU Cache | 10 <br> 2 | 35m <br> 36m | 1. link list 2. unordered_map | 1. not familiar with stl link list <br> 2. new / delete , malloc / free <br> 3. class public notation <br> 4. class default constructor | done | todo | ext
  ~~322~~ | Coin Change | 2, 1 | 1h, 17m | Dynamic Programming | wrong init vec size | done | try bottom-up approach  | - 
  ~~121~~ | Best Time to Buy and Sell Stock | 1 <br> 1 | 5m <br> 4m | 1. array | none | done | todo | ext
  5 | Longest Palindromic Substring | 3 <br> 2 | 36m <br> 20m | 1. string 2. dp | 1. O(n) solution is hard.... | read_sol | try O(n) | ext
@@ -185,7 +186,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 825 | Friends Of Appropriate Ages | 1 | 17m | 1. array | none | done | todo | ext
 2 | Add Two Numbers | 1 | 12m | 1. linked list | none | done | todo | ext
 937 | Reorder Data in Log Files | nan | 29m | 1. string | 1. string::npos != s.size() 2. key conflict | done | todo | ext
-146\* | LRU Cache | 10 | 35m | 1. link list 2. unordered_map | 1. not familiar with stl link list | done | todo | ext
 42 | Trapping Rain Water | 2 | 33m | 1. array 2. two pointer 3. stack  | none | done | todo | ext
 21 | Merge Two Sorted Lists | 1 | 4m | 1. merge linked lists | none | done | todo | ext
 1192 | Critical Connections in a Network | 10 | 1h17m | 1. tree 2. graph 3. Tarjan's algorithm | Graph traversal visits parent node | done | todo | ext
