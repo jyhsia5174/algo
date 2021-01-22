@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 121 | Best Time to Buy and Sell Stock | 1 <br> 1 | 5m <br> 4m | 1. array | none | done | todo | ext
  5 | Longest Palindromic Substring | 3 <br> 2 | 36m <br> 20m | 1. string 2. dp | 1. O(n) solution is hard.... | read_sol | try O(n) | ext
  852 | Peak Index in a Mountain Array | 1 | 6m | 1. binary search | none | read_sol | 1. Golden-section search | ext
  242 | Valid Anagram | 1 | 5m | 1. anagram 2. hash map | none | read_sol | todo | ext
@@ -189,7 +190,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 21 | Merge Two Sorted Lists | 1 | 4m | 1. merge linked lists | none | done | todo | ext
 1192 | Critical Connections in a Network | 10 | 1h17m | 1. tree 2. graph 3. Tarjan's algorithm | Graph traversal visits parent node | done | todo | ext
 994 | Rotting Oranges | 1 | 12m | 1. bfs | none | done | todo | ext
-121 | Best Time to Buy and Sell Stock | 1 | 5m | 1. array | none | done | todo | ext
 692 | Top K Frequent Words | 5 | 25m | 1. nth largest element | nth_element does not sort kth largerst ones | done | todo | ext
 763 | Partition Labels | 5 | 23m | 1. merge interval | 1. logic design error | done | todo | ext
 49 | Group Anagrams | 3 | 7m | 1. string | none | done | todo | ext
