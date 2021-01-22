@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 56 | Merge Intervals | 1 <br> 1 | 11m <br> 7m | 1. array 2. sort | 1. lambda function does not need name. | done | todo | ext
  4/* | Median of Two Sorted Arrays | nan | 2h30m | 1. merge sorted array 2. binary search | err_note | read_sol | todo | ext
  17 | Letter Combinations of a Phone Number | 2 | 16m | backtracing | empty input not handled | read_sol | todo | ext
  212\* | Word Search II | nan <br> 2 | 3h <br> 51m | 1. string 2. backstracing | 1. not familiar with backtracing | done | todo | ext
@@ -147,7 +148,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 415 | Add Strings | 1 | 10m | 1. two pointer | - | done | - | -
 238 | Product of Array Except Self | 1 | 16m | 1. array | none | read_sol | todo | ext
 953 | Verifying an Alien Dictionary | 3 | 14m | 1. hash table | sort cannot use non-static function as cmp | done | - | -
-56 | Merge Intervals | 1 | 11m | 1. array 2. sort | none | done | todo | ext
 1249 | Minimum Remove to Make Valid Parentheses | 1 | 11m | 1. stack 2. string | - | done | todo | ext
 973 | K Closest Points to Origin | 2 | 11m | 1. divide and conqur 2. heap 3. sort | 1. priority_queue put largest first or lowest when greater<T> is applied. | done | todo | ext
 31 | Next Permutation | 3 | 30m | 1. permutation | 1. binary search condition problem | done | todo | ext
