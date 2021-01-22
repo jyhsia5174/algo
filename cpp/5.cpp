@@ -1,5 +1,70 @@
 /*
 5. Longest Palindromic Substring
+Runtime: 4 ms, faster than 99.58% of C++ online submissions for Longest Palindromic Substring.
+Memory Usage: 7 MB, less than 96.92% of C++ online submissions for Longest Palindromic Substring.
+*/
+class Solution {
+public:
+    string longestPalindrome(string s) {
+        if( s.size() <= 1 )
+            return s;
+    
+        int N = s.size();
+        N = 2*N + 1; //Position count 
+        int L[N];
+        L[0] = 0; 
+        L[1] = 1; 
+        int C = 1; //centerPosition  
+        int R = 2; //centerRightPosition 
+        int iMirror; //currentLeftPosition 
+        int maxLPSLength = 0; 
+        int maxLPSCenterPosition = 0; 
+        int start = -1; 
+        int end = -1; 
+        int diff = -1; 
+      
+    
+        for (int i = 2; i < N; i++)  
+        { 
+            //get currentLeftPosition iMirror for currentRightPosition i 
+            iMirror  = 2*C-i; 
+            L[i] = 0; 
+            diff = R - i; 
+            //If currentRightPosition i is within centerRightPosition R 
+            if(diff > 0) 
+                L[i] = min(L[iMirror], diff); 
+  
+            while ( ((i + L[i]) < N && (i - L[i]) > 0) &&  
+                ( ((i + L[i] + 1) % 2 == 0) ||  
+                (s[(i + L[i] + 1)/2] == s[(i - L[i] - 1)/2] ))) 
+            { 
+                L[i]++; 
+            } 
+  
+            if(L[i] > maxLPSLength)  // Track maxLPSLength 
+            { 
+                maxLPSLength = L[i]; 
+                maxLPSCenterPosition = i; 
+            } 
+  
+            if (i + L[i] > R)  
+            { 
+                C = i; 
+                R = i + L[i]; 
+            } 
+        } 
+    
+        start = (maxLPSCenterPosition - maxLPSLength)/2; 
+        
+        return s.substr(start, maxLPSLength);
+    }
+};
+
+// 1 2 3
+// 3 5 7
+
+/*
+5. Longest Palindromic Substring
 Runtime: 12 ms, faster than 92.32% of C++ online submissions for Longest Palindromic Substring.
 Memory Usage: 9.5 MB, less than 59.04% of C++ online submissions for Longest Palindromic Substring.
 */
