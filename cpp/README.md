@@ -2,7 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
- 121 | Best Time to Buy and Sell Stock | 1 <br> 1 | 5m <br> 4m | 1. array | none | done | todo | ext
+ ~~121~~ | Best Time to Buy and Sell Stock | 1 <br> 1 | 5m <br> 4m | 1. array | none | done | todo | ext
  5 | Longest Palindromic Substring | 3 <br> 2 | 36m <br> 20m | 1. string 2. dp | 1. O(n) solution is hard.... | read_sol | try O(n) | ext
  852 | Peak Index in a Mountain Array | 1 | 6m | 1. binary search | none | read_sol | 1. Golden-section search | ext
  242 | Valid Anagram | 1 | 5m | 1. anagram 2. hash map | none | read_sol | todo | ext
