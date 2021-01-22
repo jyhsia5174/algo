@@ -1,3 +1,71 @@
+/*
+5. Longest Palindromic Substring
+Runtime: 12 ms, faster than 92.32% of C++ online submissions for Longest Palindromic Substring.
+Memory Usage: 9.5 MB, less than 59.04% of C++ online submissions for Longest Palindromic Substring.
+*/
+class Solution {
+public:
+    string longestPalindrome(string s) {
+        if( s.size() == 0 )
+            return "";
+        
+        string ss = " ";
+        for(int i = 0; i < s.size(); i++)
+            ss += s.substr(i, 1) + " ";
+        
+        int n = ss.size();
+        vector<int> len(n, 1);
+        int maxLen = 1;
+        int maxi = 1;
+        int right = 0;
+        int center = 0;
+        int l;
+        for(int i = 1; i < n; i++){
+            if( i >= right ){
+                l = 1;
+            }
+            else{
+                int left = center - (i - center);
+                l = min(len[left], right - i + 1);
+            }
+            
+            while( i+l < n && i-l >= 0 ){
+                if( ss[i+l] == ss[i-l] )
+                    l++;
+                else
+                    break;
+            }
+            
+            if( l > maxLen ){
+                maxLen = l;
+                maxi = i;
+            }
+            
+            len[i] = l;
+            
+            if( i+l-1 > right ){
+                right = i+l-1;    
+                center = i;
+            }
+        }
+        
+        if( maxLen == 1 )
+            return s.substr(0, 1);
+        
+        string tmp = ss.substr( maxi - maxLen + 1, 2 * maxLen - 1);
+        string res = "";
+        for(int i = 0; i < tmp.size(); i++)
+            if( tmp[i] !=  ' ' )
+                res += tmp[i];
+        
+        return res;
+    }
+};
+
+// 1 2 3
+// 3 5 7
+
+
 // 5. Longest Palindromic Substring
 class Solution {
 public:
