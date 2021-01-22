@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 852 | Peak Index in a Mountain Array | 1 | 6m | 1. binary search | none | read_sol | 1. Golden-section search | ext
  242 | Valid Anagram | 1 | 5m | 1. anagram 2. hash map | none | read_sol | todo | ext
  56 | Merge Intervals | 1 <br> 1 | 11m <br> 7m | 1. array 2. sort | 1. lambda function does not need name. | done | 1. think about unicode characters | ext
  4/* | Median of Two Sorted Arrays | nan | 2h30m | 1. merge sorted array 2. binary search | err_note | read_sol | todo | ext
