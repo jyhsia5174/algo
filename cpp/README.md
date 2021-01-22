@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 5 | Longest Palindromic Substring | 3 <br> 2 | 36m <br> 20m | 1. string 2. dp | 1. O(n) solution is hard.... | read_sol | try O(n) | ext
  852 | Peak Index in a Mountain Array | 1 | 6m | 1. binary search | none | read_sol | 1. Golden-section search | ext
  242 | Valid Anagram | 1 | 5m | 1. anagram 2. hash map | none | read_sol | todo | ext
  56 | Merge Intervals | 1 <br> 1 | 11m <br> 7m | 1. array 2. sort | 1. lambda function does not need name. | done | 1. think about unicode characters | ext
@@ -185,7 +186,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 937 | Reorder Data in Log Files | nan | 29m | 1. string | 1. string::npos != s.size() 2. key conflict | done | todo | ext
 146\* | LRU Cache | 10 | 35m | 1. link list 2. unordered_map | 1. not familiar with stl link list | done | todo | ext
 42 | Trapping Rain Water | 2 | 33m | 1. array 2. two pointer 3. stack  | none | done | todo | ext
-5 | Longest Palindromic Substring | 3 | 36m | 1. string | err_note | read_sol | todo | ext
 21 | Merge Two Sorted Lists | 1 | 4m | 1. merge linked lists | none | done | todo | ext
 1192 | Critical Connections in a Network | 10 | 1h17m | 1. tree 2. graph 3. Tarjan's algorithm | Graph traversal visits parent node | done | todo | ext
 994 | Rotting Oranges | 1 | 12m | 1. bfs | none | done | todo | ext
