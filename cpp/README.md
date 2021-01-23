@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 380 | Insert Delete GetRandom O(1) | 3 <br> 1 | 20m <br> 40m | 1. design 2. hash table | 1. no idea <br> 2. come up with my own thinking ! | done | todo | ext
  297 | Serialize and Deserialize Binary Tree | nan <br> 1 | 1h <br> 29m | tree, design | 1. pointer is pass by copy <br> 2. intToS sToInt | read_sol | - | -
  146\* | LRU Cache | 10 <br> 2 | 35m <br> 36m | 1. link list 2. unordered_map | 1. not familiar with stl link list <br> 2. new / delete , malloc / free <br> 3. class public notation <br> 4. class default constructor | done | todo | ext
  ~~322~~ | Coin Change | 2, 1 | 1h, 17m | Dynamic Programming | wrong init vec size | done | try bottom-up approach  | - 
@@ -193,7 +194,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 692 | Top K Frequent Words | 5 | 25m | 1. nth largest element | nth_element does not sort kth largerst ones | done | todo | ext
 763 | Partition Labels | 5 | 23m | 1. merge interval | 1. logic design error | done | todo | ext
 49 | Group Anagrams | 3 | 7m | 1. string | none | done | todo | ext
-380 | Insert Delete GetRandom O(1) | 3 | 20m | 1. design 2. hash table | 1. no idea | done | todo | ext
 127 | Word Ladder | 10 | 1h | 1. bfs | 1. misunderstanding the target question in complexity  | done | todo | ext
 588 | Design In-Memory File System | 5 | 1h37m | 1. string processing 2. design | Need to practice more string to tokens in C++ | done | todo | ext
 140 | Word Break II | nan | 1h | 1. dp  | 1. string pre vs post construction. | done | todo | ext
