@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 297 | Serialize and Deserialize Binary Tree | nan <br> 1 | 1h <br> 29m | tree, design | 1. pointer is pass by copy <br> 2. intToS sToInt | read_sol | - | -
  146\* | LRU Cache | 10 <br> 2 | 35m <br> 36m | 1. link list 2. unordered_map | 1. not familiar with stl link list <br> 2. new / delete , malloc / free <br> 3. class public notation <br> 4. class default constructor | done | todo | ext
  ~~322~~ | Coin Change | 2, 1 | 1h, 17m | Dynamic Programming | wrong init vec size | done | try bottom-up approach  | - 
  ~~121~~ | Best Time to Buy and Sell Stock | 1 <br> 1 | 5m <br> 4m | 1. array | none | done | todo | ext
@@ -88,7 +89,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  221\* | Maximal Square | nan | 2h | Dynamic Programming | Not come up solution | done | - | -
  271 | Encode and Decode Strings | nan | 2h | encoding | 1. char vs unsigned char | done | - | -
  295 | Find Median from Data Stream | nan | 2h00m | 1. head 2. design | avl tree subtree may be null | - | - | -
- 297 | Serialize and Deserialize Binary Tree | nan | 1h | tree, design | 1. pointer is pass by copy <br> 2. intToS sToInt | done | - | -
  299 | Bulls and Cows | 2 | 20m | hash table | - | - | - | -
  329 | Longest Increasing Path in a Matrix | 5 | 45m | dfs, topological sort, memorization | 1. Class does not support pass ref object to member object. 2. Invalid array access | done | DP (Peeling Onion) | -
  334 | Increasing Triplet Subsequence | 3 | 1h30m | - | 1. Read instruction carefully | none | -  | We can extends to more than 3 seq
