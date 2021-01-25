@@ -204,7 +204,11 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1091 | Shortest Path in Binary Matrix | 5 | 10m | 1. bfs | 1. ignore 0, 0 case | none | todo | ext
 1429 | First Unique Number | 2 | 13m | hash table | 1. code logic error | done | todo | ext
 353 | Design Snake Game | nan | 1h | 1. hash table | 1. read question more carefully | none | todo | ext
-id | prob_name | try | time | topics | err_note | read_sol | todo | ext
+ 
+ 
+ # Mastered Question
+ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
+ -----|-----|-----|-----|-----|-----|-----|-----|-----
  ~~21~~ | Merge Two Sorted Lists | 1 <br> 1 | 4m <br> 5m | 1. merge linked lists | none | done | todo | ext
  ~~2~~ | Add Two Numbers | 1 <br> 1 | 12m <br> 10m | 1. linked list  | 1. use nullptr instead of NULL | read_sol | todo | ext
 ~~253~~ | Meeting Rooms II | 2 <br> 2 | 20m <br> 12m | interval overlap count 1. sort 2. priority queue | 1. input array may be empty <br> 1. lambda function should not have name... 2. priority queue use greater<int> to invert| done | - | -
