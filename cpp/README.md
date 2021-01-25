@@ -34,6 +34,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  ~~543~~ | Diameter of Binary Tree | 3 <br> 1 | 10m <br> 5m | 1. tree | typing error | done | todo | ext
  394\** | Decode String | nan <br> 2 | 1h20m <br> 29m | parser | 1. Not clear about LL parser <br> 2. s.find_first_of( "c", pos ) <br> 3. read example more carefully <br> 4. isalpha(int c) <br> 5. return i++ != return i+1 | - | - | -
  222\* | Count Complete Tree Nodes | 2 <br> 1 | 30m <br> 47m | 1. binary search <br> 2. tree | 1. level counting error | done | - | -
+ -----|-----|-----|-----|-----|-----|-----|-----|-----
  363 \* | Max Sum of Rectangle No Larger Than K | 5 | nan | 1. dp 2. maximum subarray with limit | no idea | done | todo | ext
  53 | Maximum Subarray | 5 | 13m | 1. dp | implementation error | done | 363. Max Sum of Rectangle No Larger Than K | subMatrix
  32 | Longest Valid Parentheses | 3 | 58m | 1. parenthesis | 1. may need update max outside of while loop | read_sol | todo | ext
