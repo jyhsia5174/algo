@@ -14,9 +14,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  297 | Serialize and Deserialize Binary Tree | nan <br> 1 | 1h <br> 29m | tree, design | 1. pointer is pass by copy <br> 2. intToS sToInt | read_sol | - | -
  146\* | LRU Cache | 10 <br> 2 | 35m <br> 36m | 1. link list 2. unordered_map | 1. not familiar with stl link list <br> 2. new / delete , malloc / free <br> 3. class public notation <br> 4. class default constructor | done | todo | ext
  5 | Longest Palindromic Substring | 3 <br> 2 | 36m <br> 20m | 1. string 2. dp | 1. O(n) solution is hard.... | read_sol | try O(n) | ext
- 852 | Peak Index in a Mountain Array | 1 | 6m | 1. binary search | none | read_sol | 1. Golden-section search | ext
- 242 | Valid Anagram | 1 | 5m | 1. anagram 2. hash map | none | read_sol | todo | ext
- 56 | Merge Intervals | 1 <br> 1 | 11m <br> 7m | 1. array 2. sort | 1. lambda function does not need name. | done | 1. think about unicode characters | ext
  4/* | Median of Two Sorted Arrays | nan | 2h30m | 1. merge sorted array 2. binary search | err_note | read_sol | todo | ext
  212\* | Word Search II | nan <br> 2 | 3h <br> 51m | 1. string 2. backstracing | 1. not familiar with backtracing | done | todo | ext
  425 | Word Squares | 1 | 43m | 1. string 2. unordered map 3. backtracing | none | read_sol | todo | ext
@@ -219,3 +216,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  ~~200~~ | Number of Islands | 1 <br> 1 | 14m <br> 7m | 1. dfs | none | done | todo | ext
  ~~543~~ | Diameter of Binary Tree | 3 <br> 1 | 10m <br> 5m | 1. tree | typing error | done | todo | ext
  17 | Letter Combinations of a Phone Number | 2 | 16m | backtracing | empty input not handled | read_sol | todo | ext
+ ~~56~~ | Merge Intervals | 1 <br> 1 | 11m <br> 7m | 1. array 2. sort | 1. lambda function does not need name. | done | 1. think about unicode characters | ext
+ 852 | Peak Index in a Mountain Array | 1 | 6m | 1. binary search | none | read_sol | 1. Golden-section search | ext
+ 242 | Valid Anagram | 1 | 5m | 1. anagram 2. hash map | none | read_sol | todo | ext
