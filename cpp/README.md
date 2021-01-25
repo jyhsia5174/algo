@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ ~~21~~ | Merge Two Sorted Lists | 1 <br> 1 | 4m <br> 5m | 1. merge linked lists | none | done | todo | ext
  ~~2~~ | Add Two Numbers | 1 <br> 1 | 12m <br> 10m | 1. linked list  | 1. use nullptr instead of NULL | read_sol | todo | ext
  857\* | Minimum Cost to Hire K Workers | 3 | 1h03m | 1. priority que | 1. priority que cmp function need to use decltype(cmp) and with construct arg cmp | done | todo | ext
  ~~253~~ | Meeting Rooms II | 2 <br> 2 | 20m <br> 12m | interval overlap count 1. sort 2. priority queue | 1. input array may be empty <br> 1. lambda function should not have name... 2. priority queue use greater<int> to invert| done | - | -
@@ -33,7 +34,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  ~~543~~ | Diameter of Binary Tree | 3 <br> 1 | 10m <br> 5m | 1. tree | typing error | done | todo | ext
  394\** | Decode String | nan <br> 2 | 1h20m <br> 29m | parser | 1. Not clear about LL parser <br> 2. s.find_first_of( "c", pos ) <br> 3. read example more carefully <br> 4. isalpha(int c) <br> 5. return i++ != return i+1 | - | - | -
  222\* | Count Complete Tree Nodes | 2 <br> 1 | 30m <br> 47m | 1. binary search <br> 2. tree | 1. level counting error | done | - | -
- 21 | Merge Two Sorted Lists | 1 | 5m | 1. merge sorted linked list | none | read_sol | todo | ext
  363 \* | Max Sum of Rectangle No Larger Than K | 5 | nan | 1. dp 2. maximum subarray with limit | no idea | done | todo | ext
  53 | Maximum Subarray | 5 | 13m | 1. dp | implementation error | done | 363. Max Sum of Rectangle No Larger Than K | subMatrix
  32 | Longest Valid Parentheses | 3 | 58m | 1. parenthesis | 1. may need update max outside of while loop | read_sol | todo | ext
@@ -183,7 +183,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1026 | Maximum Difference Between Node and Ancestor| 2 | 18m | 1. tree 2. dfs | 1. typing error | none | todo | ext
 825 | Friends Of Appropriate Ages | 1 | 17m | 1. array | none | done | todo | ext
 937 | Reorder Data in Log Files | nan | 29m | 1. string | 1. string::npos != s.size() 2. key conflict | done | todo | ext
-21 | Merge Two Sorted Lists | 1 | 4m | 1. merge linked lists | none | done | todo | ext
 1192 | Critical Connections in a Network | 10 | 1h17m | 1. tree 2. graph 3. Tarjan's algorithm | Graph traversal visits parent node | done | todo | ext
 994 | Rotting Oranges | 1 | 12m | 1. bfs | none | done | todo | ext
 692 | Top K Frequent Words | 5 | 25m | 1. nth largest element | nth_element does not sort kth largerst ones | done | todo | ext
