@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ ~~20~~ | Valid Parentheses | 2 <br> | 7m <br> 10m | 1. string 2. stack | 1. stack must not be empty | done | todo | ext
  833 | Find And Replace in String | 2 <br> 2 | 30m <br> 21m | string | index update rule miss  1. c++ lambda function 2. string compare method | done | - | -
  618\* | Next Closest Time | nan | 42m | string | 1. char convert to string | done | todo | ext
  159 | Longest Substring with At Most Two Distinct Characters | 1 | 20m | 1. moving window | none | done | todo | ext
@@ -33,7 +34,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  id\* | Minimum Cost to Hire K Workers | 3 | 1h03m | 1. priority que | 1. priority que cmp function need to use decltype(cmp) and with construct arg cmp | read_sol | todo | ext
  id | Meeting Rooms II | 2 | 12m | 1. sort 2. priority queue | 1. lambda function should not have name... 2. priority queue use greater<int> to invert | read_sol | todo | ext
  id | Trapping Rain Water | 2 | 44m | topics | 1. stack empty not handled | read_sol | todo | ext
- id | Valid Parentheses | 1 | 10m | stack | err_note | read_sol | todo | ext
  363 \* | Max Sum of Rectangle No Larger Than K | 5 | nan | 1. dp 2. maximum subarray with limit | no idea | done | todo | ext
  53 | Maximum Subarray | 5 | 13m | 1. dp | implementation error | done | 363. Max Sum of Rectangle No Larger Than K | subMatrix
  32 | Longest Valid Parentheses | 3 | 58m | 1. parenthesis | 1. may need update max outside of while loop | read_sol | todo | ext
@@ -50,7 +50,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  1335 \* | Minimum Difficulty of a Job Schedule | 2 | 55m | 1. dp | Wrong initialization | none | none | 
  312 \* | Burst Balloons | 1 | 50m | dp | 1. no idea | done | top-down approach | ext
  10 | Regular Expression Matching | 2 | 50m | 1. dp | miss 1 "." can match | done | todo | ext
- 20 | Valid Parentheses | 2 | 7m | 1. string 2. stack | 1. stack must not be empty | done | todo | ext
  674 | Longest Continuous Increasing Subsequence | 2 | 10m | 1. dp | err_note | read_sol | todo | ext
  343 | Integer Break | 1 | 15m | 1. dp |  | none | todo | ext
  516 \* | Longest Palindromic Subsequence | nan | 1h | 1. dp | logic error | read_sol | todo | ext
