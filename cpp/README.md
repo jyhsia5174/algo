@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 618\* | Next Closest Time | nan | 42m | string | 1. char convert to string | done | todo | ext
  159 | Longest Substring with At Most Two Distinct Characters | 1 | 20m | 1. moving window | none | done | todo | ext
  76\* | Minimum Window Substring | 3 <br> 1 | 45m <br> 30m | 1. two pointer 2. hash table | Not familiar with hash tricks. | done | do more hash problems | -
  55 | Jump Game | 1 | 10m | 1. greedy | none | done | todo | ext
@@ -33,7 +34,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  id | Trapping Rain Water | 2 | 44m | topics | 1. stack empty not handled | read_sol | todo | ext
  id | Valid Parentheses | 1 | 10m | stack | err_note | read_sol | todo | ext
  id | Find And Replace in String | 2 | 21m | topics | 1. c++ lambda function 2. string compare method | read_sol | todo | ext
- id | Next Closest Time | nan | 42m | string | 1. char convert to string | read_sol | todo | ext
  363 \* | Max Sum of Rectangle No Larger Than K | 5 | nan | 1. dp 2. maximum subarray with limit | no idea | done | todo | ext
  53 | Maximum Subarray | 5 | 13m | 1. dp | implementation error | done | 363. Max Sum of Rectangle No Larger Than K | subMatrix
  32 | Longest Valid Parentheses | 3 | 58m | 1. parenthesis | 1. may need update max outside of while loop | read_sol | todo | ext
