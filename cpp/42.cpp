@@ -1,3 +1,34 @@
+/*
+42. Trapping Rain Water
+*/
+
+class Solution {
+public:
+    int trap(vector<int>& height) {
+        int i = 0;
+        int j = height.size() - 1;
+        
+        int lmax = 0, rmax = 0;
+        int res = 0;
+        while( i <= j ){
+            if( lmax <= rmax ){
+                if( height[i] < lmax )
+                    res += lmax - height[i];
+                lmax = max(lmax, height[i]);
+                i++;
+            }
+            else{
+                if( height[j] < rmax )
+                    res += rmax - height[j];
+                rmax = max(rmax, height[j]);
+                j--;
+            }
+        }
+        
+        return res;
+    }
+};
+
 // 42. Trapping Rain Water
 class Solution {
 public:
