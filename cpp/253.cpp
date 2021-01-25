@@ -1,3 +1,33 @@
+/*
+253. Meeting Rooms II
+Runtime: 12 ms, faster than 99.34% of C++ online submissions for Meeting Rooms II.
+Memory Usage: 11.7 MB, less than 98.90% of C++ online submissions for Meeting Rooms II.
+*/
+class Solution {
+public:
+    int minMeetingRooms(vector<vector<int>>& I) {
+        sort(I.begin(), I.end(), [](const vector<int> &l, const vector<int> &r){
+            return l[0] < r[0];
+        });
+        
+        int res = 0;
+        priority_queue<int, vector<int>, greater<int>> Q;
+        for(auto &v: I){
+            int st = v[0];
+            int ed = v[1];
+            
+            while( !Q.empty() && Q.top() <= st )
+                Q.pop();
+            
+            Q.push( ed );
+            res = max( res, (int) Q.size() );
+        }
+        
+        return res;
+    }
+};
+
+
 // Meeting Rooms II
 class Solution {
 public:
