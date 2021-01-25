@@ -18,7 +18,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  242 | Valid Anagram | 1 | 5m | 1. anagram 2. hash map | none | read_sol | todo | ext
  56 | Merge Intervals | 1 <br> 1 | 11m <br> 7m | 1. array 2. sort | 1. lambda function does not need name. | done | 1. think about unicode characters | ext
  4/* | Median of Two Sorted Arrays | nan | 2h30m | 1. merge sorted array 2. binary search | err_note | read_sol | todo | ext
- 17 | Letter Combinations of a Phone Number | 2 | 16m | backtracing | empty input not handled | read_sol | todo | ext
  212\* | Word Search II | nan <br> 2 | 3h <br> 51m | 1. string 2. backstracing | 1. not familiar with backtracing | done | todo | ext
  425 | Word Squares | 1 | 43m | 1. string 2. unordered map 3. backtracing | none | read_sol | todo | ext
  489 | Robot Room Cleaner | 1 <br> 8 | 1h <br> 1h05m | dfs | - | done | - | -
@@ -219,3 +218,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  ~~124\*~~ | Binary Tree Maximum Path Sum | nan <br> 1 | 1h40m <br> 10m | 1. tree 2. dfs | - | done | - | a
  ~~200~~ | Number of Islands | 1 <br> 1 | 14m <br> 7m | 1. dfs | none | done | todo | ext
  ~~543~~ | Diameter of Binary Tree | 3 <br> 1 | 10m <br> 5m | 1. tree | typing error | done | todo | ext
+ 17 | Letter Combinations of a Phone Number | 2 | 16m | backtracing | empty input not handled | read_sol | todo | ext
