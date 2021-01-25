@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 76\* | Minimum Window Substring | 3 <br> 1 | 45m <br> 30m | 1. two pointer 2. hash table | Not familiar with hash tricks. | done | do more hash problems | -
  55 | Jump Game | 1 | 10m | 1. greedy | none | done | todo | ext
  43\* | Multiply Strings | nan | 50m | string | err_note | done | todo | ext
  380 | Insert Delete GetRandom O(1) | 3 <br> 1 | 20m <br> 40m | 1. design 2. hash table | 1. no idea <br> 2. come up with my own thinking ! | done | todo | ext
@@ -32,7 +33,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  id | Valid Parentheses | 1 | 10m | stack | err_note | read_sol | todo | ext
  id | Find And Replace in String | 2 | 21m | topics | 1. c++ lambda function 2. string compare method | read_sol | todo | ext
  id | Next Closest Time | nan | 42m | string | 1. char convert to string | read_sol | todo | ext
- id | Minimum Window Substring | 1 | 30m | topics | err_note | read_sol | todo | ext
  363 \* | Max Sum of Rectangle No Larger Than K | 5 | nan | 1. dp 2. maximum subarray with limit | no idea | done | todo | ext
  53 | Maximum Subarray | 5 | 13m | 1. dp | implementation error | done | 363. Max Sum of Rectangle No Larger Than K | subMatrix
  32 | Longest Valid Parentheses | 3 | 58m | 1. parenthesis | 1. may need update max outside of while loop | read_sol | todo | ext
@@ -122,7 +122,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 375 | Guess Number Higher or Lower II | nan | 1h20m | dp | 1. wrong thinking direction. | done | - | -
 1438 | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | 4 | 45min | 1. array 2. sliding window | 1. empty map access  | done | try deque | - 
  743 | Network Delay Time | 3 | 22m | Dijkstra's algorithm | 1. forget init original cost to zero. | done | - | -
- 76\* | Minimum Window Substring | 3 | 45m | 1. two pointer 2. hash table | Not familiar with hash tricks. | done | do more hash problems | -
  560 | Subarray Sum Equals K | 2 | 20m | 1. hash table | indexing error | done | - | -
  253 | Meeting Rooms II | 2 | 20m | interval overlap count | 1. input array may be empty | done | - | -
  846 | Hand of Straights | 2 | 15m | 1. ordered map | 1. map.begin()->first 2. map.find() | done | - | -
