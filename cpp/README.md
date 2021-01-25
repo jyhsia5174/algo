@@ -2,12 +2,8 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
- ~~21~~ | Merge Two Sorted Lists | 1 <br> 1 | 4m <br> 5m | 1. merge linked lists | none | done | todo | ext
- ~~2~~ | Add Two Numbers | 1 <br> 1 | 12m <br> 10m | 1. linked list  | 1. use nullptr instead of NULL | read_sol | todo | ext
  857\* | Minimum Cost to Hire K Workers | 3 | 1h03m | 1. priority que | 1. priority que cmp function need to use decltype(cmp) and with construct arg cmp | done | todo | ext
- ~~253~~ | Meeting Rooms II | 2 <br> 2 | 20m <br> 12m | interval overlap count 1. sort 2. priority queue | 1. input array may be empty <br> 1. lambda function should not have name... 2. priority queue use greater<int> to invert| done | - | -
  42 | Trapping Rain Water | 2 <br> 2 | 33m <br> 44m | 1. array 2. two pointer 3. stack  | 1. stack empty not handled | done | todo | ext
- ~~20~~ | Valid Parentheses | 2 <br> | 7m <br> 10m | 1. string 2. stack | 1. stack must not be empty | done | todo | ext
  833 | Find And Replace in String | 2 <br> 2 | 30m <br> 21m | string | index update rule miss  1. c++ lambda function 2. string compare method | done | - | -
  618\* | Next Closest Time | nan | 42m | string | 1. char convert to string | done | todo | ext
  159 | Longest Substring with At Most Two Distinct Characters | 1 | 20m | 1. moving window | none | done | todo | ext
@@ -17,8 +13,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  380 | Insert Delete GetRandom O(1) | 3 <br> 1 | 20m <br> 40m | 1. design 2. hash table | 1. no idea <br> 2. come up with my own thinking ! | done | todo | ext
  297 | Serialize and Deserialize Binary Tree | nan <br> 1 | 1h <br> 29m | tree, design | 1. pointer is pass by copy <br> 2. intToS sToInt | read_sol | - | -
  146\* | LRU Cache | 10 <br> 2 | 35m <br> 36m | 1. link list 2. unordered_map | 1. not familiar with stl link list <br> 2. new / delete , malloc / free <br> 3. class public notation <br> 4. class default constructor | done | todo | ext
- ~~322~~ | Coin Change | 2, 1 | 1h, 17m | Dynamic Programming | wrong init vec size | done | try bottom-up approach  | - 
- ~~121~~ | Best Time to Buy and Sell Stock | 1 <br> 1 | 5m <br> 4m | 1. array | none | done | todo | ext
  5 | Longest Palindromic Substring | 3 <br> 2 | 36m <br> 20m | 1. string 2. dp | 1. O(n) solution is hard.... | read_sol | try O(n) | ext
  852 | Peak Index in a Mountain Array | 1 | 6m | 1. binary search | none | read_sol | 1. Golden-section search | ext
  242 | Valid Anagram | 1 | 5m | 1. anagram 2. hash map | none | read_sol | todo | ext
@@ -27,11 +21,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  17 | Letter Combinations of a Phone Number | 2 | 16m | backtracing | empty input not handled | read_sol | todo | ext
  212\* | Word Search II | nan <br> 2 | 3h <br> 51m | 1. string 2. backstracing | 1. not familiar with backtracing | done | todo | ext
  425 | Word Squares | 1 | 43m | 1. string 2. unordered map 3. backtracing | none | read_sol | todo | ext
- ~~951~~ | Flip Equivalent Binary Trees | 3 <br> 2 | 45m <br> 12m | tree | 1. miss tree traverse NULL leaf detection | done | - | -
  489 | Robot Room Cleaner | 1 <br> 8 | 1h <br> 1h05m | dfs | - | done | - | -
- ~~124\*~~ | Binary Tree Maximum Path Sum | nan <br> 1 | 1h40m <br> 10m | 1. tree 2. dfs | - | done | - | a
- ~~200~~ | Number of Islands | 1 <br> 1 | 14m <br> 7m | 1. dfs | none | done | todo | ext
- ~~543~~ | Diameter of Binary Tree | 3 <br> 1 | 10m <br> 5m | 1. tree | typing error | done | todo | ext
  394\** | Decode String | nan <br> 2 | 1h20m <br> 29m | parser | 1. Not clear about LL parser <br> 2. s.find_first_of( "c", pos ) <br> 3. read example more carefully <br> 4. isalpha(int c) <br> 5. return i++ != return i+1 | - | - | -
  222\* | Count Complete Tree Nodes | 2 <br> 1 | 30m <br> 47m | 1. binary search <br> 2. tree | 1. level counting error | done | - | -
  -----|-----|-----|-----|-----|-----|-----|-----|-----
@@ -215,3 +205,13 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1429 | First Unique Number | 2 | 13m | hash table | 1. code logic error | done | todo | ext
 353 | Design Snake Game | nan | 1h | 1. hash table | 1. read question more carefully | none | todo | ext
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
+ ~~21~~ | Merge Two Sorted Lists | 1 <br> 1 | 4m <br> 5m | 1. merge linked lists | none | done | todo | ext
+ ~~2~~ | Add Two Numbers | 1 <br> 1 | 12m <br> 10m | 1. linked list  | 1. use nullptr instead of NULL | read_sol | todo | ext
+~~253~~ | Meeting Rooms II | 2 <br> 2 | 20m <br> 12m | interval overlap count 1. sort 2. priority queue | 1. input array may be empty <br> 1. lambda function should not have name... 2. priority queue use greater<int> to invert| done | - | -
+ ~~20~~ | Valid Parentheses | 2 <br> | 7m <br> 10m | 1. string 2. stack | 1. stack must not be empty | done | todo | ext
+ ~~322~~ | Coin Change | 2, 1 | 1h, 17m | Dynamic Programming | wrong init vec size | done | try bottom-up approach  | - 
+ ~~121~~ | Best Time to Buy and Sell Stock | 1 <br> 1 | 5m <br> 4m | 1. array | none | done | todo | ext
+ ~~951~~ | Flip Equivalent Binary Trees | 3 <br> 2 | 45m <br> 12m | tree | 1. miss tree traverse NULL leaf detection | done | - | -
+ ~~124\*~~ | Binary Tree Maximum Path Sum | nan <br> 1 | 1h40m <br> 10m | 1. tree 2. dfs | - | done | - | a
+ ~~200~~ | Number of Islands | 1 <br> 1 | 14m <br> 7m | 1. dfs | none | done | todo | ext
+ ~~543~~ | Diameter of Binary Tree | 3 <br> 1 | 10m <br> 5m | 1. tree | typing error | done | todo | ext
