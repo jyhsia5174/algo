@@ -1,3 +1,48 @@
+/*
+833. Find And Replace in String
+*/
+class Solution {
+public:
+    string findReplaceString(string S, vector<int>& indexes, vector<string>& sources, vector<string>& targets) {
+        int n = indexes.size();
+        vector<int> ref(n, 0);
+        iota(ref.begin(), ref.end(), 0);
+        sort(ref.begin(), ref.end(), [indexes](const int &i, const int &j){
+           return indexes[i] < indexes[j]; 
+        });
+        
+        string res = "";
+        int i = 0;
+        int j = 0;
+        int nextR = indexes[ref[j]];
+        while( i < S.size() ){
+            if( i == nextR ){
+                string &src = sources[ref[j]];
+                string &targ = targets[ref[j]];
+                if( S.compare(i, src.size(), src) == 0){
+                    res += targ;
+                }
+                else{
+                    res += S.substr(i, src.size());
+                }
+                i+= src.size();
+                
+                j++;
+                if( j < n )
+                    nextR = indexes[ref[j]];
+                else
+                    nextR = -1;
+            }
+            else{
+                res += S[i];
+                i++;
+            }
+        }
+        
+        return res;
+    }
+};
+
 class Solution {
 public:
     string findReplaceString(string S, vector<int>& idxs, vector<string>& srcs, vector<string>& Ts) {
