@@ -11,6 +11,40 @@ public:
            return indexes[i] < indexes[j]; 
         });
         
+        string res = S.substr(0, indexes[ref[0]] );
+        for(int i = 0; i < ref.size(); i++){
+            int j = indexes[ref[i]];
+            string &src = sources[ref[i]];
+            string &targ = targets[ref[i]];
+            
+            if( S.substr(j, src.size()) == src )
+                res += targ;
+            else
+                res += S.substr(j, src.size());
+            
+            if( i+1 < ref.size() )
+                res += S.substr(j+src.size(), indexes[ref[i+1]] - (j+src.size()) );
+            else
+                res += S.substr(j+src.size(), S.size() - (j+src.size()) );
+        }
+        
+        return res;
+    }
+};
+
+/*
+833. Find And Replace in String
+*/
+class Solution {
+public:
+    string findReplaceString(string S, vector<int>& indexes, vector<string>& sources, vector<string>& targets) {
+        int n = indexes.size();
+        vector<int> ref(n, 0);
+        iota(ref.begin(), ref.end(), 0);
+        sort(ref.begin(), ref.end(), [indexes](const int &i, const int &j){
+           return indexes[i] < indexes[j]; 
+        });
+        
         string res = "";
         int i = 0;
         int j = 0;
