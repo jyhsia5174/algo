@@ -2,7 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
- id | Add Two Numbers | 1 | 10m | 1. linked list | 1. use nullptr instead of NULL | read_sol | todo | ext
+ ~~2~~ | Add Two Numbers | 1 <br> 1 | 12m <br> 10m | 1. linked list  | 1. use nullptr instead of NULL | read_sol | todo | ext
  857\* | Minimum Cost to Hire K Workers | 3 | 1h03m | 1. priority que | 1. priority que cmp function need to use decltype(cmp) and with construct arg cmp | done | todo | ext
  ~~253~~ | Meeting Rooms II | 2 <br> 2 | 20m <br> 12m | interval overlap count 1. sort 2. priority queue | 1. input array may be empty <br> 1. lambda function should not have name... 2. priority queue use greater<int> to invert| done | - | -
  42 | Trapping Rain Water | 2 <br> 2 | 33m <br> 44m | 1. array 2. two pointer 3. stack  | 1. stack empty not handled | done | todo | ext
@@ -182,7 +182,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 896 | Monotonic Array | 1 | 4m | 1. array | none | done | todo | ext
 1026 | Maximum Difference Between Node and Ancestor| 2 | 18m | 1. tree 2. dfs | 1. typing error | none | todo | ext
 825 | Friends Of Appropriate Ages | 1 | 17m | 1. array | none | done | todo | ext
-2 | Add Two Numbers | 1 | 12m | 1. linked list | none | done | todo | ext
 937 | Reorder Data in Log Files | nan | 29m | 1. string | 1. string::npos != s.size() 2. key conflict | done | todo | ext
 21 | Merge Two Sorted Lists | 1 | 4m | 1. merge linked lists | none | done | todo | ext
 1192 | Critical Connections in a Network | 10 | 1h17m | 1. tree 2. graph 3. Tarjan's algorithm | Graph traversal visits parent node | done | todo | ext
