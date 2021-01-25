@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 55 | Jump Game | 1 | 10m | 1. greedy | none | done | todo | ext
  43\* | Multiply Strings | nan | 50m | string | err_note | done | todo | ext
  380 | Insert Delete GetRandom O(1) | 3 <br> 1 | 20m <br> 40m | 1. design 2. hash table | 1. no idea <br> 2. come up with my own thinking ! | done | todo | ext
  297 | Serialize and Deserialize Binary Tree | nan <br> 1 | 1h <br> 29m | tree, design | 1. pointer is pass by copy <br> 2. intToS sToInt | read_sol | - | -
@@ -32,7 +33,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  id | Find And Replace in String | 2 | 21m | topics | 1. c++ lambda function 2. string compare method | read_sol | todo | ext
  id | Next Closest Time | nan | 42m | string | 1. char convert to string | read_sol | todo | ext
  id | Minimum Window Substring | 1 | 30m | topics | err_note | read_sol | todo | ext
- id | Jump Game | 1 | 10m | topics | err_note | read_sol | todo | ext
  363 \* | Max Sum of Rectangle No Larger Than K | 5 | nan | 1. dp 2. maximum subarray with limit | no idea | done | todo | ext
  53 | Maximum Subarray | 5 | 13m | 1. dp | implementation error | done | 363. Max Sum of Rectangle No Larger Than K | subMatrix
  32 | Longest Valid Parentheses | 3 | 58m | 1. parenthesis | 1. may need update max outside of while loop | read_sol | todo | ext
