@@ -206,7 +206,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 353 | Design Snake Game | nan | 1h | 1. hash table | 1. read question more carefully | none | todo | ext
  
  
- # Mastered Question
+ # Mastered Question (solved within 2 try, 20m)
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
  ~~21~~ | Merge Two Sorted Lists | 1 <br> 1 | 4m <br> 5m | 1. merge linked lists | none | done | todo | ext
