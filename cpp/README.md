@@ -6,9 +6,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  42 | Trapping Rain Water | 2 <br> 2 | 33m <br> 44m | 1. array 2. two pointer 3. stack  | 1. stack empty not handled | done | todo | ext
  833 | Find And Replace in String | 2 <br> 2 | 30m <br> 21m | string | index update rule miss  1. c++ lambda function 2. string compare method | done | - | -
  618\* | Next Closest Time | nan | 42m | string | 1. char convert to string | done | todo | ext
- 159 | Longest Substring with At Most Two Distinct Characters | 1 | 20m | 1. moving window | none | done | todo | ext
  76\* | Minimum Window Substring | 3 <br> 1 | 45m <br> 30m | 1. two pointer 2. hash table | Not familiar with hash tricks. | done | do more hash problems | -
- 55 | Jump Game | 1 | 10m | 1. greedy | none | done | todo | ext
  43\* | Multiply Strings | nan | 50m | string | err_note | done | todo | ext
  380 | Insert Delete GetRandom O(1) | 3 <br> 1 | 20m <br> 40m | 1. design 2. hash table | 1. no idea <br> 2. come up with my own thinking ! | done | todo | ext
  297 | Serialize and Deserialize Binary Tree | nan <br> 1 | 1h <br> 29m | tree, design | 1. pointer is pass by copy <br> 2. intToS sToInt | read_sol | - | -
@@ -219,3 +217,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  ~~56~~ | Merge Intervals | 1 <br> 1 | 11m <br> 7m | 1. array 2. sort | 1. lambda function does not need name. | done | 1. think about unicode characters | ext
  852 | Peak Index in a Mountain Array | 1 | 6m | 1. binary search | none | read_sol | 1. Golden-section search | ext
  242 | Valid Anagram | 1 | 5m | 1. anagram 2. hash map | none | read_sol | todo | ext
+ 159 | Longest Substring with At Most Two Distinct Characters | 1 | 20m | 1. moving window | none | done | todo | ext
+ 55 | Jump Game | 1 | 10m | 1. greedy | none | done | todo | ext
