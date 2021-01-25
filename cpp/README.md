@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ ~~253~~ | Meeting Rooms II | 2 <br> 2 | 20m <br> 12m | interval overlap count 1. sort 2. priority queue | 1. input array may be empty <br> 1. lambda function should not have name... 2. priority queue use greater<int> to invert| done | - | -
  42 | Trapping Rain Water | 2 <br> 2 | 33m <br> 44m | 1. array 2. two pointer 3. stack  | 1. stack empty not handled | done | todo | ext
  ~~20~~ | Valid Parentheses | 2 <br> | 7m <br> 10m | 1. string 2. stack | 1. stack must not be empty | done | todo | ext
  833 | Find And Replace in String | 2 <br> 2 | 30m <br> 21m | string | index update rule miss  1. c++ lambda function 2. string compare method | done | - | -
@@ -33,7 +34,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  21 | Merge Two Sorted Lists | 1 | 5m | 1. merge sorted linked list | none | read_sol | todo | ext
  id | Add Two Numbers | 1 | 10m | 1. linked list | 1. use nullptr instead of NULL | read_sol | todo | ext
  id\* | Minimum Cost to Hire K Workers | 3 | 1h03m | 1. priority que | 1. priority que cmp function need to use decltype(cmp) and with construct arg cmp | read_sol | todo | ext
- id | Meeting Rooms II | 2 | 12m | 1. sort 2. priority queue | 1. lambda function should not have name... 2. priority queue use greater<int> to invert | read_sol | todo | ext
  363 \* | Max Sum of Rectangle No Larger Than K | 5 | nan | 1. dp 2. maximum subarray with limit | no idea | done | todo | ext
  53 | Maximum Subarray | 5 | 13m | 1. dp | implementation error | done | 363. Max Sum of Rectangle No Larger Than K | subMatrix
  32 | Longest Valid Parentheses | 3 | 58m | 1. parenthesis | 1. may need update max outside of while loop | read_sol | todo | ext
@@ -122,7 +122,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1438 | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | 4 | 45min | 1. array 2. sliding window | 1. empty map access  | done | try deque | - 
  743 | Network Delay Time | 3 | 22m | Dijkstra's algorithm | 1. forget init original cost to zero. | done | - | -
  560 | Subarray Sum Equals K | 2 | 20m | 1. hash table | indexing error | done | - | -
- 253 | Meeting Rooms II | 2 | 20m | interval overlap count | 1. input array may be empty | done | - | -
  846 | Hand of Straights | 2 | 15m | 1. ordered map | 1. map.begin()->first 2. map.find() | done | - | -
  1296 | Divide Array in Sets of K Consecutive Numbers (same as 846) | 2 | 15m | 1. ordered map | 1. map.begin()->first 2. map.find() | done | - | -
  1140\* | Stone Game II | nan | nan | dp | - | - | do more dp | -
