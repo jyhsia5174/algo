@@ -222,4 +222,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  344 | Reverse String | 1 | 2m | recursion | none | done | todo | ext
  24 | Swap Nodes in Pairs | 1 | 5m | 1. recursion | none | done | todo | ext
  206 | Reverse Linked List | 2 | 5m | 1. recursion | 1. return wrong pointer | done | todo | ext
+ 700 | Search in a Binary Search Tree | 1 | 4m | Binary Search Tree | none | done | todo | ext
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
