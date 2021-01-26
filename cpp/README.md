@@ -222,5 +222,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  24 | Swap Nodes in Pairs | 1 | 5m | 1. recursion | none | done | todo | ext
  206 | Reverse Linked List | 2 | 5m | 1. recursion | 1. return wrong pointer | done | todo | ext
  700 | Search in a Binary Search Tree | 1 | 4m | Binary Search Tree | none | done | todo | ext
- 70 | Climbing Stairs | 1 <br> 1 | 5m <br> 5m | 1. dp 2. recursion | none | done | todo | ext
+ 70 | Climbing Stairs | 1 <br> 1 | 5m <br> 5m | 1. dp 2. recursion | none | done | try log(N) approach | ext
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
