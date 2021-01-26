@@ -219,3 +219,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  159 | Longest Substring with At Most Two Distinct Characters | 1 | 20m | 1. moving window | none | done | todo | ext
  55 | Jump Game | 1 | 10m | 1. greedy | none | done | todo | ext
  833 | Find And Replace in String | 2 <br> 2 | 30m <br> 21m | string | index update rule miss  1. c++ lambda function 2. string compare method | done | - | -
+ 344 | Reverse String | 1 | 2m | recursion | none | done | todo | ext
