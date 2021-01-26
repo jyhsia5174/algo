@@ -4,7 +4,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
  857\* | Minimum Cost to Hire K Workers | 3 | 1h03m | 1. priority que | 1. priority que cmp function need to use decltype(cmp) and with construct arg cmp | done | todo | ext
  42 | Trapping Rain Water | 2 <br> 2 | 33m <br> 44m | 1. array 2. two pointer 3. stack  | 1. stack empty not handled | done | todo | ext
- 833 | Find And Replace in String | 2 <br> 2 | 30m <br> 21m | string | index update rule miss  1. c++ lambda function 2. string compare method | done | - | -
  618\* | Next Closest Time | nan | 42m | string | 1. char convert to string | done | todo | ext
  76\* | Minimum Window Substring | 3 <br> 1 | 45m <br> 30m | 1. two pointer 2. hash table | Not familiar with hash tricks. | done | do more hash problems | -
  43\* | Multiply Strings | nan | 50m | string | err_note | done | todo | ext
@@ -219,3 +218,4 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  242 | Valid Anagram | 1 | 5m | 1. anagram 2. hash map | none | read_sol | todo | ext
  159 | Longest Substring with At Most Two Distinct Characters | 1 | 20m | 1. moving window | none | done | todo | ext
  55 | Jump Game | 1 | 10m | 1. greedy | none | done | todo | ext
+ 833 | Find And Replace in String | 2 <br> 2 | 30m <br> 21m | string | index update rule miss  1. c++ lambda function 2. string compare method | done | - | -
