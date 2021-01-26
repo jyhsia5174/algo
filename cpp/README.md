@@ -54,7 +54,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  303 | Range Sum Query - Immutable | 1 | 3m | 1. dp | none | done | todo | ext
  983 | Minimum Cost For Tickets | 1 | 30m | 1. dp | none | done | todo | ext
  746 | Min Cost Climbing Stairs | 1 | 5m | 1. dp | none | done | todo | ext
- 70 | Climbing Stairs | 1 | 5m | 1. dp | none | done | todo | ext
  198 | House Robber | 1 | 10m | 1. dp | none | done | todo | ext
  256 | Paint House | 2 | 10m | 1. dp | 1. miss input array size == 0 | done | todo | ext
  1025 | Divisor Game | 1 | 11m | 1. dp  | none | done | todo | ext
@@ -223,4 +222,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  24 | Swap Nodes in Pairs | 1 | 5m | 1. recursion | none | done | todo | ext
  206 | Reverse Linked List | 2 | 5m | 1. recursion | 1. return wrong pointer | done | todo | ext
  700 | Search in a Binary Search Tree | 1 | 4m | Binary Search Tree | none | done | todo | ext
+ 70 | Climbing Stairs | 1 <br> 1 | 5m <br> 5m | 1. dp 2. recursion | none | done | todo | ext
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
