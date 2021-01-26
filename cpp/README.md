@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 95 | Unique Binary Search Trees II | 4 | 22m | 1. recursion | 1. index error <br> 2. recursion function is not intuitive for me | done | todo | ext
  857\* | Minimum Cost to Hire K Workers | 3 | 1h03m | 1. priority que | 1. priority que cmp function need to use decltype(cmp) and with construct arg cmp | done | todo | ext
  42 | Trapping Rain Water | 2 <br> 2 | 33m <br> 44m | 1. array 2. two pointer 3. stack  | 1. stack empty not handled | done | todo | ext
  618\* | Next Closest Time | nan | 42m | string | 1. char convert to string | done | todo | ext
