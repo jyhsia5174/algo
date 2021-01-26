@@ -221,4 +221,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  833 | Find And Replace in String | 2 <br> 2 | 30m <br> 21m | string | index update rule miss  1. c++ lambda function 2. string compare method | done | - | -
  344 | Reverse String | 1 | 2m | recursion | none | done | todo | ext
  24 | Swap Nodes in Pairs | 1 | 5m | 1. recursion | none | done | todo | ext
+ 206 | Reverse Linked List | 2 | 5m | 1. recursion | 1. return wrong pointer | done | todo | ext
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
