@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 240 | Search a 2D Matrix II | nan <br> 3 | 45m <br> 19m | 1. bi search 2. designed | 1. lower_bound val >= T upper_bound val > T | done | todo | ext
  98 | Validate Binary Search Tree | 6 | 10m | 1. binary search tree | 1. not clear about binary search tree definition | done | try stack method | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
  95 | Unique Binary Search Trees II | 4 | 22m | 1. recursion | 1. index error <br> 2. recursion function is not intuitive for me | done | todo | ext
@@ -183,7 +184,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 460\* | LFU Cache | 10 | 55m | 1. design | too many | done | todo | ext
 348 | Design Tic-Tac-Toe | 2 | 9m | 1. design | typing error | done | todo | ext
 472 | Concatenated Words | 1 | 30m | 1. string 2. dfs | none | done | todo | ext
-240\* | Search a 2D Matrix II | nan | 45m | 1. bi search 2. designed | 1. lower_bound val >= T upper_bound val > T | done | todo | ext
 126 | Word Ladder II | 1 | 45m | 1. bfs | none | done | todo | ext
 863\* | All Nodes Distance K in Binary Tree | 5 | 1h | 1. dfs 2. tree | 1. design flaws | done | todo | ext
 815 | Bus Routes | 3 | 20m | 1. bfs | 1. typo | done | todo | ext
