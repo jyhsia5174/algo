@@ -229,4 +229,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  700 | Search in a Binary Search Tree | 1 | 4m | Binary Search Tree | none | done | todo | ext
  70 | Climbing Stairs | 1 <br> 1 | 5m <br> 5m | 1. dp 2. recursion | none | done | try log(N) approach | ext
  50 | Pow(x, n) | 2 | 10m | 1. recurssion | int value overflow | done | todo | ext
+ 100 | Same Tree | 1 | 5m | 1. recursive | none | done | todo | ext
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
