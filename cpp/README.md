@@ -230,5 +230,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  70 | Climbing Stairs | 1 <br> 1 | 5m <br> 5m | 1. dp 2. recursion | none | done | try log(N) approach | ext
  50 | Pow(x, n) | 2 | 10m | 1. recurssion | int value overflow | done | todo | ext
  100 | Same Tree | 1 | 5m | 1. iteratively recursive | none | done | todo | ext
- 94 | Binary Tree Inorder Traversal | 2 | 11m | 1. iteratively recursive | none | done | todo | ext
+ 94 | Binary Tree Inorder Traversal | 2 | 11m | 1. iteratively recursive | none | done | 1. redo iterative approach <br> 2. Morris Traversal  | ext
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
