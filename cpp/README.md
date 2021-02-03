@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 84 | Largest Rectangle in Histogram | 5 | 50m | 1. recursive 2. segmentation tree | 1. wrong termination criteira l - r <= 1  | done | todo | ext
  426 | Convert Binary Search Tree to Sorted Doubly Linked List | 1 | 27m | 1. divide and conqeur | none | done | 1. try inorder recursive method | ext
  37 | Sudoku Solver | 5 | 49m | 1. recursive 2. backtracing | 1. wrong block index access  | done | todo | ext
  52\* (already read sol) | N-Queens II | 1 | 10m | 1. backtrack | 1. unordered_set use erase | done | todo | ext
