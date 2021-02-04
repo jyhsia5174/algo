@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 8 | String to Integer (atoi) | 10 | 49m | 1. string to int 2. parser | 1. int compare function error | done | todo | ext
  307\* | Range Sum Query - Mutable | nan | nan | 1. segmentation tree | review segmentation tree | done | redo seg tree | ext
  84 | Largest Rectangle in Histogram | 5 | 50m | 1. recursive 2. segmentation tree | 1. wrong termination criteira l - r <= 1  | done | todo | ext
  426 | Convert Binary Search Tree to Sorted Doubly Linked List | 1 | 27m | 1. divide and conqeur | none | done | 1. try inorder recursive method | ext
