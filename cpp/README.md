@@ -180,7 +180,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 994 | Rotting Oranges | 1 | 12m | 1. bfs | none | done | todo | ext
 692 | Top K Frequent Words | 5 | 25m | 1. nth largest element | nth_element does not sort kth largerst ones | done | todo | ext
 763 | Partition Labels | 5 | 23m | 1. merge interval | 1. logic design error | done | todo | ext
-49 | Group Anagrams | 3 | 7m | 1. string | none | done | todo | ext
 127 | Word Ladder | 10 | 1h | 1. bfs | 1. misunderstanding the target question in complexity  | done | todo | ext
 588 | Design In-Memory File System | 5 | 1h37m | 1. string processing 2. design | Need to practice more string to tokens in C++ | done | todo | ext
 140 | Word Break II | nan | 1h | 1. dp  | 1. string pre vs post construction. | done | todo | ext
@@ -238,4 +237,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  46 | Permutations | 1 | 6m | 1. backtracing | none | done | todo | ext
  1 | Two Sum | 1 <br> 1 | 2m | Hash Table | - | done | - | -
  12 | Integer to Roman | 2 | 20m | 1. parsing | 2. misused mod vs division | done | todo | ext
+ 49 | Group Anagrams | 3 <br> 1 | 7m <br> 8m | 1. string | none | done | todo | ext
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
