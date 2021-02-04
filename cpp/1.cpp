@@ -1,3 +1,25 @@
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> m;
+        
+        for(int i = 0; i < nums.size(); i++){
+            int v = target - nums[i];
+            
+            if( m.find(v) != m.end() ){
+                return {m[v], i};
+            }
+            
+            m[nums[i]] = i;
+        }
+        
+        return {-1, -1};
+    }
+};
+
+
+// Old version
+
 #include<unordered_map>
 #include<vector>
 using namespace std;
