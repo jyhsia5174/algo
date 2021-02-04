@@ -68,7 +68,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  1025 | Divisor Game | 1 | 11m | 1. dp  | none | done | todo | ext
  838 | Push Dominoes | 5 | 37m | 1. two pointer  | logic error | done | todo | ext
  1230 | Toss Strange Coins| 10 | 36m | 1. dp | logic error | done | more dp | ext
- 1 | Two Sum | 1 | - | Hash Table | - | done | - | -
  7 | Reverse Integer | 5 | 1h | Math | 1. c++ operator precedence <br> 2. Read instruction carefully | done | - | - | -
  14 | Longest Common Prefix | 3 | 27m | String | use min\<T\>() instead of min() | done | - | - | -
  15 | 3Sum | 3 | 59m | 3sum | tle | none | read other's code | -
@@ -235,4 +234,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  100 | Same Tree | 1 | 5m | 1. iteratively recursive | none | done | todo | ext
  94 | Binary Tree Inorder Traversal | 2 | 11m | 1. iteratively recursive | none | done | 1. redo iterative approach <br> 2. Morris Traversal  | ext
  46 | Permutations | 1 | 6m | 1. backtracing | none | done | todo | ext
+ 1 | Two Sum | 1 <br> 1 | 2m | Hash Table | - | done | - | -
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
