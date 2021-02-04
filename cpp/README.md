@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 28\* | Implement strStr() | 3 | 53m | 1. KMP algo | 1. jump table design flaw | done | 1. rolling hash | ext
  8 | String to Integer (atoi) | 10 | 49m | 1. string to int 2. parser | 1. int compare function error | done | todo | ext
  307\* | Range Sum Query - Mutable | nan | nan | 1. segmentation tree | review segmentation tree | done | redo seg tree | ext
  84 | Largest Rectangle in Histogram | 5 | 50m | 1. recursive 2. segmentation tree | 1. wrong termination criteira l - r <= 1  | done | todo | ext
