@@ -242,4 +242,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  268 | Missing Number | 1 | 3m | 1. math 2. xor | none | done | todo | ext
  387 | First Unique Character in a String | 1 | 4m | 1. hash table | none | done | todo | ext
  819 | Most Common Word | 3 | 23m | 1. string hash | 1. wrong P[i] | done | todo | ext 
+ 22 | Generate Parentheses | 2 | 12m | 1. backtrack | none | done | todo | ext
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
