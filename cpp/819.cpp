@@ -1,4 +1,36 @@
 // 819. Most Common Word
+
+
+class Solution {
+public:
+    string mostCommonWord(string P, vector<string>& banned) {
+        unordered_set<string> B(banned.begin(), banned.end());
+        unordered_map<string, int> count;
+        
+        for(int i = 0; i < P.size(); i++)
+            P[i] = isalpha(P[i])? tolower(P[i]) : ' ';
+        
+        string res;
+        int maxCnt = 0;
+        istringstream iss(P);
+        string w;
+        while( iss >> w ){
+            if( B.find(w) == B.end() ){
+                count[w] ++;
+                if( count[w] > maxCnt ){
+                    res = w;
+                    maxCnt = count[w];
+                }
+            }
+        }
+        
+        return res;
+    }
+};
+
+
+// old version
+
 class Solution {
 public:
     string mostCommonWord(string P, vector<string>& banned) {
