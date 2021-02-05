@@ -1,6 +1,47 @@
 /*
 165. Compare Version Numbers
 */
+
+
+
+class Solution {
+public:
+    int compareVersion(string s1, string s2) {
+        int i = 0, j = 0;
+        int v1 = 0, v2 = 0;
+        int n1 = s1.size(), n2 = s2.size();
+        
+        while( i < n1 || j < n2 ){
+            while( i < n1 && s1[i] != '.' ){
+                v1 = v1 * 10 + ( s1[i] - '0' );
+                i++;
+            }
+            
+            while( j < n2 && s2[j] != '.' ){
+                v2 = v2 * 10 + ( s2[j] - '0' );
+                j++;
+            }
+            
+            if( v1 < v2 )
+                return -1;
+            if( v1 > v2 )
+                return 1;
+            
+            v1 = v2 = 0;
+            i++;
+            j++;
+        }
+        
+        return 0;
+    }
+};
+
+
+
+
+
+
+
 class Solution {
 public:
     int compareVersion(string s1, string s2) {
