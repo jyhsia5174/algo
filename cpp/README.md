@@ -240,4 +240,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  12 | Integer to Roman | 2 | 20m | 1. parsing | 2. misused mod vs division | done | todo | ext
  49 | Group Anagrams | 3 <br> 1 | 7m <br> 8m | 1. string | none | done | todo | ext
  268 | Missing Number | 1 | 3m | 1. math 2. xor | none | done | todo | ext
+ 387 | First Unique Character in a String | 1 | 4m | 1. hash table | none | done | todo | ext
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
