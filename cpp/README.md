@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 247 | Strobogrammatic Number II | 5 | 16m | backtrack | misunderstand problem | done | todo | ext
  78 | Subsets | 5 | 10m | 1. backtrack | read problem more carefully | done | todo | ext
  10\* | Regular Expression Matching | 2 <br> 15 | 50m <br> 47m | 1. dp <br> 2. recursion | miss 1 "." can match | done | todo | ext
  301\* | Remove Invalid Parentheses | nan <br> 3 | nan <br> 1h | backtracing | unfamiliar with backtracing implementation | done | - | -
