@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 10\* | Regular Expression Matching | 2 <br> 15 | 50m <br> 47m | 1. dp <br> 2. recursion | miss 1 "." can match | done | todo | ext
  301\* | Remove Invalid Parentheses | nan <br> 3 | nan <br> 1h | backtracing | unfamiliar with backtracing implementation | done | - | -
  79 | Word Search | 4 | 17m | 1. backtrack | 1. not labeded visited | done | todo | ext
  165 | Compare Version Numbers | nan | 50m | 1. parsing | err_note | read_sol | todo | ext
@@ -47,7 +48,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  1235 \* | Maximum Profit in Job Scheduling | 10 | 2h | 1. dp | 1. TLE  | none | todo | ext
  1335 \* | Minimum Difficulty of a Job Schedule | 2 | 55m | 1. dp | Wrong initialization | none | none | 
  312 \* | Burst Balloons | 1 | 50m | dp | 1. no idea | done | top-down approach | ext
- 10 | Regular Expression Matching | 2 | 50m | 1. dp | miss 1 "." can match | done | todo | ext
  674 | Longest Continuous Increasing Subsequence | 2 | 10m | 1. dp | err_note | read_sol | todo | ext
  343 | Integer Break | 1 | 15m | 1. dp |  | none | todo | ext
  516 \* | Longest Palindromic Subsequence | nan | 1h | 1. dp | logic error | read_sol | todo | ext
