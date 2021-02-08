@@ -255,4 +255,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  22 | Generate Parentheses | 2 | 12m | 1. backtrack | none | done | todo | ext
  47 | Permutations II | 2 | 10m | 1. backtrack | 1. none | done | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 704 | Binary Search | 1 | 7m | 1. binary search | none | done | todo | ext
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
