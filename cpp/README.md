@@ -4,6 +4,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 69 | Sqrt(x) | 6 | 15m | 1. binary search | 1. integer overflow <br> 2. division by zero <br> | done | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
  247 | Strobogrammatic Number II | 5 | 16m | backtrack | misunderstand problem | done | todo | ext
  78 | Subsets | 5 | 10m | 1. backtrack | read problem more carefully | done | todo | ext
