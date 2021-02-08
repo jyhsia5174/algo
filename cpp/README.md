@@ -4,6 +4,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 33 | Search in Rotated Sorted Array | 2 <br> 1 | 2h <br> 32m | Binary search | Overlook corner case arr size == 0 | done | try while loop for search | - 
  69 | Sqrt(x) | 6 | 15m | 1. binary search | 1. integer overflow <br> 2. division by zero <br> | done | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
  247 | Strobogrammatic Number II | 5 | 16m | backtrack | misunderstand problem | done | todo | ext
@@ -83,7 +84,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  7 | Reverse Integer | 5 | 1h | Math | 1. c++ operator precedence <br> 2. Read instruction carefully | done | - | - | -
  14 | Longest Common Prefix | 3 | 27m | String | use min\<T\>() instead of min() | done | - | - | -
  15 | 3Sum | 3 | 59m | 3sum | tle | none | read other's code | -
- 33 | Search in Rotated Sorted Array | 2 | 2h | Binary search | Overlook corner case arr size == 0 | done | try while loop for search | - 
  36 | Valid Sudoku | 5 | 30m | hash table | 1. missing ; <br> 2. wrong input  | done | - | -
  68 | Text Justification | 7 | 1h24m | String | 1. Compile err <br> 2. Ambiguous Q description.... | none | - | learn an even divide trick ('w')
  128 | Longest Consecutive Sequence | 2 | 43m | Hash Table | corner case arr = [] | done | - | -
