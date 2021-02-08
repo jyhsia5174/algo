@@ -2,6 +2,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ -----|-----|-----|-----|-----|-----|-----|-----|-----
  247 | Strobogrammatic Number II | 5 | 16m | backtrack | misunderstand problem | done | todo | ext
  78 | Subsets | 5 | 10m | 1. backtrack | read problem more carefully | done | todo | ext
  10\* | Regular Expression Matching | 2 <br> 15 | 50m <br> 47m | 1. dp <br> 2. recursion | miss 1 "." can match | done | todo | ext
@@ -12,7 +13,8 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  8 | String to Integer (atoi) | 10 | 49m | 1. string to int 2. parser | 1. int compare function error | done | todo | ext
  307\* | Range Sum Query - Mutable | nan | nan | 1. segmentation tree | review segmentation tree | done | redo seg tree | ext
  84 | Largest Rectangle in Histogram | 5 | 50m | 1. recursive 2. segmentation tree | 1. wrong termination criteira l - r <= 1  | done | todo | ext
- 426 | Convert Binary Search Tree to Sorted Doubly Linked List | 1 | 27m | 1. divide and conqeur | none | done | 1. try inorder recursive method | ext
+ 426 | Convert Binary Search Tree to Sorted Doubly Linked List | 1 | 27m | 1. divide and conqeur | none | done | 1. try inorder recursive method | ext 
+ -----|-----|-----|-----|-----|-----|-----|-----|-----
  37 | Sudoku Solver | 5 | 49m | 1. recursive 2. backtracing | 1. wrong block index access  | done | todo | ext
  52\* (already read sol) | N-Queens II | 1 | 10m | 1. backtrack | 1. unordered_set use erase | done | todo | ext
  240 | Search a 2D Matrix II | nan <br> 3 | 45m <br> 19m | 1. bi search 2. designed | 1. lower_bound val >= T upper_bound val > T | done | todo | ext
@@ -237,6 +239,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  70 | Climbing Stairs | 1 <br> 1 | 5m <br> 5m | 1. dp 2. recursion | none | done | try log(N) approach | ext
  50 | Pow(x, n) | 2 | 10m | 1. recurssion | int value overflow | done | todo | ext
  100 | Same Tree | 1 | 5m | 1. iteratively recursive | none | done | todo | ext
+ -----|-----|-----|-----|-----|-----|-----|-----|-----
  94 | Binary Tree Inorder Traversal | 2 | 11m | 1. iteratively recursive | none | done | 1. redo iterative approach <br> 2. Morris Traversal  | ext
  46 | Permutations | 1 | 6m | 1. backtracing | none | done | todo | ext
  1 | Two Sum | 1 <br> 1 | 2m | Hash Table | - | done | - | -
@@ -247,4 +250,5 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  819 | Most Common Word | 3 | 23m | 1. string hash | 1. wrong P[i] | done | todo | ext 
  22 | Generate Parentheses | 2 | 12m | 1. backtrack | none | done | todo | ext
  47 | Permutations II | 2 | 10m | 1. backtrack | 1. none | done | todo | ext
+ -----|-----|-----|-----|-----|-----|-----|-----|-----
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
