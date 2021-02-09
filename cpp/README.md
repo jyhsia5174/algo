@@ -4,6 +4,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 270 | Closest Binary Search Tree Value| 2 <br> 5 | 20m <br> 16m | binary search tree traversal | type unmatched errer <br> numeric_limits<double>min() is the smallest positive value of double (not negative) | done | - | -
  162 | Find Peak Element | 7 <br> nan | 1h <br> nan | Binary Search | 1. Wrong proof <br> 2. Miss INT_MIN corner case | done | try iterative bi search  | - 
  153 | Find Minimum in Rotated Sorted Array | nan | nan | 1. binary search | 1. binary check condition is not applicable when left, right are too close. <br> 2. check termination criteria at while loop beginning | done | todo | ext
  69 | Sqrt(x) | 6 | 15m | 1. binary search | 1. integer overflow <br> 2. division by zero <br> | done | todo | ext
@@ -141,7 +142,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 1376 | Time Needed to Inform All Employees | nan | 20m | bfs | 1. access queue element after pop | - | - | -
 1320\* | Minimum Distance to Type a Word Using Two Fingers| nan | 1h | dp | 1. matrix access before initialization | - | - | -
 1060 | Missing Element in Sorted Array | 1 | 10m | binary search | - | done | - | -
-270 | Closest Binary Search Tree Value| 2 | 20m | binary search tree traversal | type unmatched errer | done | - | -
 199 | Binary Tree Right Side View | 2 | 12m | 1. Tree 2. BFS | missing a case that root is NULL. | done | - | -
 273 | Integer to English Words | 6 | 1h | Implementation | 1. string merge | done | - | -
 23 | Merge k Sorted Lists | 4 | 30m | 1. merge sort | 1. logic error | done | - | -
