@@ -257,6 +257,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  34 | Find First and Last Position of Element in Sorted Array | 2 | 16m | 1. binary search | none | done | todo | ext
  702 | Search in a Sorted Array of Unknown Size | 2 | 7m | 1. binary search | calling buildin function wrong | done | todo | ext
  744 | Find Smallest Letter Greater Than Target | 2 | 9m | 1. binary search | mispell vairable name | done | todo | ext
+ 154 | Find Minimum in Rotated Sorted Array II | 2 | 9m | 1. binary search | return index instead of value | done | todo | ext
   -----|-----|-----|-----|-----|-----|-----|-----|-----
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  
