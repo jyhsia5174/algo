@@ -4,6 +4,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 153 | Find Minimum in Rotated Sorted Array | nan | nan | 1. binary search | 1. binary check condition is not applicable when left, right are too close. <br> 2. check termination criteria at while loop beginning | done | todo | ext
  69 | Sqrt(x) | 6 | 15m | 1. binary search | 1. integer overflow <br> 2. division by zero <br> | done | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
  247 | Strobogrammatic Number II | 5 | 16m | backtrack | misunderstand problem | done | todo | ext
