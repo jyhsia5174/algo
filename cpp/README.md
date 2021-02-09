@@ -4,6 +4,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 162 | Find Peak Element | 7 <br> nan | 1h <br> nan | Binary Search | 1. Wrong proof <br> 2. Miss INT_MIN corner case | done | try iterative bi search  | - 
  153 | Find Minimum in Rotated Sorted Array | nan | nan | 1. binary search | 1. binary check condition is not applicable when left, right are too close. <br> 2. check termination criteria at while loop beginning | done | todo | ext
  69 | Sqrt(x) | 6 | 15m | 1. binary search | 1. integer overflow <br> 2. division by zero <br> | done | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
@@ -87,7 +88,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  68 | Text Justification | 7 | 1h24m | String | 1. Compile err <br> 2. Ambiguous Q description.... | none | - | learn an even divide trick ('w')
  128 | Longest Consecutive Sequence | 2 | 43m | Hash Table | corner case arr = [] | done | - | -
  160 | Intersection of Two Linked Lists | 2 | 30m | Linked List | typo | done | - | -
- 162 | Find Peak Element | 7 | 1h | Binary Search | 1. Wrong proof <br> 2. Miss INT_MIN corner case | done | try iterative bi search  | - 
  202 | Happy Number | 2 | 27m | Hash Table & Math | misused %= as /= | done | Floyd's Cycle-Finding Algorithm | -
  221\* | Maximal Square | nan | 2h | Dynamic Programming | Not come up solution | done | - | -
  271 | Encode and Decode Strings | nan | 2h | encoding | 1. char vs unsigned char | done | - | -
