@@ -254,6 +254,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
  704 | Binary Search | 1 | 7m | 1. binary search | none | done | todo | ext
   278 | First Bad Version | 1 <br> 2 | 5m <br> 8m | 1. binary search | none | done | todo | ext
+ 34 | Find First and Last Position of Element in Sorted Array | 2 | 16m | 1. binary search | none | done | todo | ext
   -----|-----|-----|-----|-----|-----|-----|-----|-----
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  
