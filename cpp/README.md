@@ -4,6 +4,7 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 719 | Find K-th Smallest Pair Distance | 15 | 50m | 1. binary search | 1. wrong direction <br> 2. error in binary search eq. condition early return | read_sol | todo | ext
  350 | Intersection of Two Arrays II | 5 | 30m | 1. hash map 2. binary search 3. set intersection | misunderstand problem setting <br> the binary search count speed is not good enough | done | todo | ext
  270 | Closest Binary Search Tree Value| 2 <br> 5 | 20m <br> 16m | binary search tree traversal | type unmatched errer <br> numeric_limits<double>min() is the smallest positive value of double (not negative) | done | - | -
  162 | Find Peak Element | 7 <br> nan | 1h <br> nan | Binary Search | 1. Wrong proof <br> 2. Miss INT_MIN corner case | done | try iterative bi search  | - 
