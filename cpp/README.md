@@ -262,6 +262,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  349 | Intersection of Two Arrays | 2 | 4m | 1. hash table | none | done | todo | ext
   -----|-----|-----|-----|-----|-----|-----|-----|-----
  31 | Next Permutation | 3 <br> 1 | 30m <br> 18m | 1. permutation | 1. binary search condition problem | done | todo | ext
+ 66 | Plus One | 2 | 7m | 1. big integer | 1. vector do not have push_front <br> 2. use insert(v.begin(), val) instead | done | todo | ext
    -----|-----|-----|-----|-----|-----|-----|-----|-----
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  
