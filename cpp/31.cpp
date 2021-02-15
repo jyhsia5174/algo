@@ -23,7 +23,7 @@ public:
 };
 
 
-// recurssive
+// recurssive v1
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -56,6 +56,35 @@ public:
     }
 };
 
+// recurssive v2
+
+class Solution {
+public:
+    void nextPermutation(vector<int>& nums) {
+        if( !helper(nums, 0) )
+            reverse(nums.begin(), nums.end());
+    }
+    
+    bool helper(vector<int>& nums, int idx){
+        if( idx == nums.size()-1 )
+            return false;
+        
+        if( helper(nums, idx+1) )
+            return true;
+        
+        // [idx+1, end) is sorted in decsending order
+        
+        // [idx, end) is sorted in decsending order
+        if( nums[idx] >= nums[idx+1] )
+            return false;
+        
+        reverse(nums.begin()+idx+1, nums.end());
+        auto it = upper_bound( nums.begin()+idx+1, nums.end(), nums[idx] );
+        iter_swap( nums.begin()+idx, it );
+        
+        return true;
+    }
+};
 
 
 // old version
