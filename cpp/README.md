@@ -156,7 +156,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 953 | Verifying an Alien Dictionary | 3 | 14m | 1. hash table | sort cannot use non-static function as cmp | done | - | -
 1249 | Minimum Remove to Make Valid Parentheses | 1 | 11m | 1. stack 2. string | - | done | todo | ext
 973 | K Closest Points to Origin | 2 | 11m | 1. divide and conqur 2. heap 3. sort | 1. priority_queue put largest first or lowest when greater<T> is applied. | done | todo | ext
-31 | Next Permutation | 3 | 30m | 1. permutation | 1. binary search condition problem | done | todo | ext
 215 | Kth Largest Element in an Array | 8 | 40m | 1. quick select or intro select algo | 1. partition function must return size >=1 | done | todo | ext
 680 | Valid Palindrome II | 1 | 10m | 1. string | none | done | todo | ext
 986 | Interval List Intersections| 3 | 20m | 1. two pointer | 1. logic error | done | todo | ext
@@ -262,6 +261,8 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  154 | Find Minimum in Rotated Sorted Array II | 2 | 9m | 1. binary search | return index instead of value | done | todo | ext
  349 | Intersection of Two Arrays | 2 | 4m | 1. hash table | none | done | todo | ext
   -----|-----|-----|-----|-----|-----|-----|-----|-----
+ 31 | Next Permutation | 3 <br> 1 | 30m <br> 18m | 1. permutation | 1. binary search condition problem | done | todo | ext
+   -----|-----|-----|-----|-----|-----|-----|-----|-----
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  
  
