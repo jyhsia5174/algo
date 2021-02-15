@@ -1,4 +1,64 @@
-// 31. Next Permutation
+/*
+31. Next Permutation
+*/
+
+// iterative
+class Solution {
+public:
+    void nextPermutation(vector<int>& nums) {
+        for(int i = nums.size()-2; i >= 0; i--){
+            if( nums[i] < nums[i+1] ){
+                reverse(nums.begin()+i+1, nums.end());
+                for(int j = i+1; j < nums.size(); j++){
+                    if( nums[i] < nums[j] ){
+                        swap( nums[i], nums[j] );
+                        return;
+                    }
+                }
+            }
+        }
+        
+        reverse( nums.begin(), nums.end() );
+    }
+};
+
+
+// recurssive
+class Solution {
+public:
+    void nextPermutation(vector<int>& nums) {
+        if( !helper(nums, 0) )
+            reverse(nums.begin(), nums.end());
+    }
+    
+    bool helper(vector<int>& nums, int idx){
+        if( idx == nums.size()-1 )
+            return false;
+        
+        if( helper(nums, idx+1) )
+            return true;
+        
+        // [idx+1, end) is sorted in decsending order
+        
+        // [idx, end) is sorted in decsending order
+        if( nums[idx] >= nums[idx+1] )
+            return false;
+        
+        reverse(nums.begin()+idx+1, nums.end());
+        for(int i = idx+1; i < nums.size(); i++){
+            if( nums[idx] < nums[i] ){
+                swap(nums[idx], nums[i]);
+                break;
+            }
+        }
+        
+        return true;
+    }
+};
+
+
+
+// old version
 class Solution {
 public:
     void nextPermutation(vector<int>& A) {
