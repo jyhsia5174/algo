@@ -165,7 +165,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
 187 | Repeated DNA Sequences| 3 | 10m | hash table | hash value reverse problem with 0 | done | todo | ext
 987 | Vertical Order Traversal of a Binary Tree| 4 | 20m | hash_table | 1. misunderstand the Question | done | todo | ext
 528 | Random Pick with Weight | 2 | 18m | 1. binary search | 1. binary search disign flawes | done | todo | ext
-158 | Read N Characters Given Read4 II - Call multiple times | 1 | 15m | 1. string | none | none | todo | ext
 125 | Valid Palindrome| 2 | 11m | 1. string | 1. miss nums cases | done | todo | ext
 211 | Add and Search Word - Data structure design| 5 | 23m | trie | 1. never use i, j, k as var name...  | done | todo | ext
 636\* | Exclusive Time of Functions | nan | 1h40m | stack | 1. string tokenizing | done | todo | ext
@@ -263,6 +262,7 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
   -----|-----|-----|-----|-----|-----|-----|-----|-----
  31 | Next Permutation | 3 <br> 1 | 30m <br> 18m | 1. permutation | 1. binary search condition problem | done | todo | ext
  66 | Plus One | 2 | 7m | 1. big integer | 1. vector do not have push_front <br> 2. use insert(v.begin(), val) instead | done | todo | ext
+ 158 | Read N Characters Given Read4 II - Call multiple times | 1 <br> 1 | 15m <br> 11m | 1. string | none | none | todo | ext
    -----|-----|-----|-----|-----|-----|-----|-----|-----
  id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  
