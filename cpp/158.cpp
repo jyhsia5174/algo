@@ -4,6 +4,53 @@
  *     int read4(char *buf4);
  */
 
+
+/*
+158. Read N Characters Given Read4 II - Call multiple times
+*/
+/**
+ * The read4 API is defined in the parent class Reader4.
+ *     int read4(char *buf4);
+ */
+
+class Solution {
+public:
+    /**
+     * @param buf Destination buffer
+     * @param n   Number of characters to read
+     * @return    The number of actual characters read
+     */
+    int read(char *buf, int n) {
+        int i = 0;
+        
+        while( n > 0 ){
+            // empty cache is there are, otherwise call read4
+            if( c_st < c_end ){
+                // cache is not empty => read 1 char
+                buf[i] = cache[c_st];
+                i++;
+                c_st++;
+                n--;
+            }
+            else{
+                c_end = read4(cache);
+                c_st = 0;
+                
+                if( c_end == 0 )
+                    break;
+            }
+        }
+        
+        return i;
+    }
+
+private:
+    int c_st=0, c_end=0;
+    char cache[4];
+};
+
+
+// older version
 class Solution {
 public:
     /**
