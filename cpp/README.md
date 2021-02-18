@@ -4,6 +4,8 @@
 
 id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  -----|-----|-----|-----|-----|-----|-----|-----|-----
+329 | Longest Increasing Path in a Matrix | 5 <br> 5 | 45m <br> 40m | dfs, topological sort, memorization | 1. Class does not support pass ref object to member object. 2. Invalid array access <br> 1. not able to see TLE 2. no direct link between dp and recursive | done | DP (Peeling Onion) | -
+ -----|-----|-----|-----|-----|-----|-----|-----|-----
  719 | Find K-th Smallest Pair Distance | 15 | 50m | 1. binary search | 1. wrong direction <br> 2. error in binary search eq. condition early return | read_sol | todo | ext
  350 | Intersection of Two Arrays II | 5 | 30m | 1. hash map 2. binary search 3. set intersection | misunderstand problem setting <br> the binary search count speed is not good enough | done | todo | ext
  270 | Closest Binary Search Tree Value| 2 <br> 5 | 20m <br> 16m | binary search tree traversal | type unmatched errer <br> numeric_limits<double>min() is the smallest positive value of double (not negative) | done | - | -
@@ -96,7 +98,6 @@ id | prob_name | try | time | topics | err_note | read_sol | todo | ext
  271 | Encode and Decode Strings | nan | 2h | encoding | 1. char vs unsigned char | done | - | -
  295 | Find Median from Data Stream | nan | 2h00m | 1. head 2. design | avl tree subtree may be null | - | - | -
  299 | Bulls and Cows | 2 | 20m | hash table | - | - | - | -
- 329 | Longest Increasing Path in a Matrix | 5 | 45m | dfs, topological sort, memorization | 1. Class does not support pass ref object to member object. 2. Invalid array access | done | DP (Peeling Onion) | -
  334 | Increasing Triplet Subsequence | 3 | 1h30m | - | 1. Read instruction carefully | none | -  | We can extends to more than 3 seq
  336 | Palindrome Pairs | nan | 1h | string | missing cases | done | try trie tree | -
  359 | Logger Rate Limiter | 3 | 45min | 1. hash table <br> 2. design | 1. priority queue use "push" <br> 2. class mycmp{ bool operator()() const {}} | done | - | -
