@@ -1,4 +1,34 @@
 // 215. Kth Largest Element in an Array
+// v3
+
+class Solution {
+public:
+    int findKthLargest(vector<int>& nums, int k) {
+        return solve(0, nums.size(), nums, k);
+    }
+    
+    int solve(int st, int ed, vector<int>& nums, int k ){
+        swap( nums[st], nums[st + (rand()%(ed-st)) ] );
+        
+        int j = st+1;
+        for(int i = st+1; i < ed; i++){
+            if( nums[i] > nums[st] ){
+                swap(nums[i], nums[j]);
+                j++;
+            }
+        }
+        
+        if(j - st == k)
+            return nums[st];
+        else if(j - st > k)
+            return solve(st, j, nums, k);
+        else
+            return solve(j, ed, nums, k - (j - st));
+    }
+    
+};
+
+// v2
 class myQ{
 public:
     myQ(){
@@ -68,7 +98,7 @@ public:
     }
 };
 
-
+// v3
 class Solution {
 public:
     int findKthLargest(vector<int>& A, int k) {
