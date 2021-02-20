@@ -1,3 +1,52 @@
+// divide & conquer
+class Solution {
+public:
+    int reversePairs(vector<int>& nums) {
+        return merge(nums, 0, nums.size());
+    }
+    
+    int merge(vector<int> &nums, int l, int r){
+        if(r - l <= 1)
+            return 0;
+        
+        int m = l + (r - l) / 2;
+        int res = 0;
+        res += merge(nums, l, m);
+        res += merge(nums, m, r);
+        
+        int li = l;
+        int ri = m;
+        while( ri < r ){
+            if( li < m && nums[li] > nums[ri] * 2LL ){
+                li++;
+            }
+            else{
+                res += (li - l);
+                ri++;
+            }
+        }
+        
+        vector<int> tmp(r-l);
+        int i = l, j = m;
+        for(int k = 0; k < tmp.size(); k++){
+            if( i >= m || (j < r && nums[i] <= nums[j] ) )
+                tmp[k] = nums[j++];
+            else
+                tmp[k] = nums[i++];
+        }
+        
+        for(i = 0; i < tmp.size(); i++)
+            nums[l+i] = tmp[i];
+        
+        return res;
+    }
+};
+
+
+
+
+
+// segmentation tree
 class segT{
 public:
     segT(int _n){
