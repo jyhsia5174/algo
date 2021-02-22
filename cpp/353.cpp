@@ -1,3 +1,65 @@
+/*
+353. Design Snake Game
+*/
+class SnakeGame {
+public:
+    /** Initialize your data structure here.
+        @param width - screen width
+        @param height - screen height 
+        @param food - A list of food positions
+        E.g food = [[1,1], [1,0]] means the first food is positioned at [1,1], the second is at [1,0]. */
+    SnakeGame(int width, int height, vector<vector<int>>& food) {
+        m = height;
+        n = width;
+        for(auto &v: food)
+            F.push(v);
+        D["U"] = {-1, 0};
+        D["D"] = {1, 0};
+        D["L"] = {0, -1};
+        D["R"] = {0, 1};
+        snake.push_back({0, 0});
+    }
+    
+    /** Moves the snake.
+        @param direction - 'U' = Up, 'L' = Left, 'R' = Right, 'D' = Down 
+        @return The game's score after the move. Return -1 if game over. 
+        Game over when snake crosses the screen boundary or bites its body. */
+    int move(string s) {
+        vector<int> dir = D[s];
+        vector<int> head = snake.front();
+        int x = head[0] + dir[0];
+        int y = head[1] + dir[1];
+        int hashval = x*10001 + y;
+        if( x < 0 || x >= m || y < 0 || y >= n || (body.find(hashval) != body.end() && hashval != (snake.back()[0]*10001 + snake.back()[1] ) ) )
+            return -1;
+        
+        if( !F.empty() && x == F.front()[0] && y == F.front()[1] ){
+            F.pop();
+        }
+        else{ 
+            body.erase(snake.back()[0]*10001 + snake.back()[1] );
+            snake.pop_back();
+        }
+        snake.push_front({x, y});
+        body.insert( hashval );
+        
+        return snake.size()-1;
+    }
+private:
+    int m, n;
+    queue<vector<int>> F;
+    deque<vector<int>> snake;
+    unordered_set<int> body; 
+    unordered_map<string, vector<int>> D;
+};
+
+/**
+ * Your SnakeGame object will be instantiated and called as such:
+ * SnakeGame* obj = new SnakeGame(width, height, food);
+ * int param_1 = obj->move(direction);
+ */
+
+
 // 353. Design Snake Game
 class SnakeGame {
 public:
