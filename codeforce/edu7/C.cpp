@@ -1,4 +1,55 @@
+// new version
+
+
 // 57m
+#include <vector>
+#include <iostream>
+using namespace std;
+
+
+int main(){
+    ios_base::sync_with_stdio(false);
+    int n, m;
+    cin >> n >> m;
+
+    int val;
+    vector<int> A;
+    while( n-- ){
+        cin >> val;
+        A.push_back( val );
+    }
+
+    vector<int> jump(A.size(), A.size());
+    for(int i = A.size()-1; i >= 0; i--){
+        if( A[i] == A[i+1] )
+            jump[i] = jump[i+1];
+        else
+            jump[i] = i+1;
+    }
+
+    int l, r, x;
+    while( m-- ){
+        cin >> l >> r >> x;
+        l--; r--;
+
+        if( A[l] != x ){
+            cout << l+1 << endl;
+        }
+        else{
+            if( jump[l] > r )
+                cout << -1 << endl;
+            else
+                cout << jump[l] + 1 << endl;
+        }
+    }
+
+    return 0;
+}
+
+
+
+
+// old version
 #include <vector>
 #include <iostream>
 using namespace std;
