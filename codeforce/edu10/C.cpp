@@ -6,6 +6,41 @@ typedef long long int LL;
 
 int main(){
     ios_base::sync_with_stdio(false);
+    int n, m;
+    cin >> n >> m;
+
+    vector<int> A(n+1), P(n+1);
+    for(int i = 1; i <= n; i++){
+        int tmp;
+        cin >> tmp;
+        A[i] = tmp;
+        P[tmp] = i;
+    }
+
+    vector<int> dp(n+1, 0);
+    for(int i = 0; i < m; i++){
+        int x, y, px, py;
+        cin >> x >> y;
+        px = P[x];
+        py = P[y];
+        if( px > py ) swap(px, py);
+        dp[py] = max(dp[py], px);
+    }
+
+    LL ans = 0;
+    int lo = 0;
+    for(int i = 1; i <= n; i++){
+        lo = max(lo, dp[i]);
+        ans += i - lo;
+    }
+
+    cout << ans << endl;
+    return 0;
+}
+
+/*
+int main(){
+    ios_base::sync_with_stdio(false);
 
     int n, m;
     cin >> n >> m;
@@ -43,3 +78,4 @@ int main(){
     cout << ans << endl;
     return 0;
 }
+*/
