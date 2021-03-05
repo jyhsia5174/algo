@@ -16,10 +16,12 @@ using namespace std;
 typedef long long int LL;
 
 LL gcd(LL x, LL y){
-    if(x < y) swap(x, y);
-    if(y == 0) return x;
-
-    return gcd(y, x % y);
+    while(y){
+        LL r = x % y;
+        x = y;
+        y = r;
+    }
+    return x;
 }
 
 LL lcm(LL x, LL y){
