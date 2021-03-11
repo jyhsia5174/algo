@@ -1,4 +1,4 @@
-// 50m 2
+// 50m 3
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -57,7 +57,7 @@ int main(){
     else if( lLen % 2 == 1 ){
         cout << 0 << endl;
     }
-    else if( lLen <= slp ){
+    else if( lLen+1 <= slp ){
         cout << 0 << endl;
     }
     else{

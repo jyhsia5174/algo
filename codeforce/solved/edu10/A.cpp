@@ -21,7 +21,6 @@ int main(){
             cout << (h2 - h1) / speed << endl;
         else
             cout << (h2 - h1) / speed + 1 << endl;
-
     }
 
     return 0;

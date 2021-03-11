@@ -10,7 +10,7 @@ public:
         perm.resize(n);
         p.resize(n);
         iota(p.begin(), p.end(), 0);
-        h.resize(n, 1);
+        sz.resize(n, 1);
 
         for(auto &v: perm)
             cin >> v;
@@ -44,23 +44,18 @@ public:
     }
 
     void merge(int x, int y){
+        x = root(x); y = root(y);
         if( x == y )
             return;
-        x = root(x); y = root(y);
-        if(h[x] > h[y]){
-            p[y] = x;
-            h[x] = max(h[x], h[y] + 1);
-        }
-        else{
-            p[x] = y;
-            h[y] = max(h[y], h[x] + 1);
-        }
+        if(sz[x] < sz[y]) swap(x, y);
+        p[y] = x;
+        sz[x] += sz[y];
     }
 
     int n, m;
     vector<int> perm;
     vector<int> p;
-    vector<int> h;
+    vector<int> sz;
     unordered_map<int, priority_queue<int>> M;
 };
 
