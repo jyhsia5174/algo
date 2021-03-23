@@ -1,5 +1,51 @@
 /*
 L   l   r   m
+0   
+1   0   1   0   0   0   0   1
+*/
+class Solution {
+public:
+    double kth(const vector<int> &A, int ai, int aj, const vector<int> &B, int bi, int bj, int k){
+        if( (aj - ai) == 0 ) return kth(B, bi, bj, A, ai, aj, k);
+        if( (bj - bi) == 0 ) return A[ai+k-1];
+        if( k == 1 ) return min(A[ai], B[bi]);
+        if( (bj - bi) == 1 ){
+            if( B[bi] <= A[ai+k-2] )
+                return max( B[bi], A[ai+k-2] );
+            else if( ai + k - 1 < aj )
+                return min(B[bi], A[ai+k-1]);
+            else
+                return B[bi];
+        }
+        
+        int bmi = bi + (bj - bi) / 2;
+        int ami = lower_bound(A.begin()+ai, A.begin()+aj, B[bmi]) - A.begin();
+        int cnt = (bmi-bi) + (ami-ai);
+        
+        
+        if( cnt >= k )
+            return kth(A, ai, ami, B, bi, bmi, k);
+        else
+            return kth(A, ami, aj, B, bmi, bj, k-cnt);
+    }
+    
+    double findMedianSortedArrays(vector<int>& A, vector<int>& B) {
+        int m = A.size();
+        int n = B.size();
+        int k = (m+n+1)/2; // 5 -> 3, 4->2
+        
+        double res = kth(A, 0, m, B, 0, n, k);
+        if( (m+n) % 2 == 0 ){
+            res += kth(A, 0, m, B, 0, n, k+1);
+            res /= 2;
+        }
+        
+        return res;
+    }
+};
+
+/*
+L   l   r   m
 1   0   0   0   0   -1  1   0
 2   0   1   0   0   -1   1   1
 3   0   2   1   0   0   2   2
