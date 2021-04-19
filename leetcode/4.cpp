@@ -3,6 +3,52 @@ L   l   r   m
 0   
 1   0   1   0   0   0   0   1
 */
+
+// 2 24m
+class Solution {
+public:
+    int cnt(vector<int> &A, vector<int> &B, int x){
+        if(x < 0) return 0;
+        int cnta = upper_bound(A.begin(), A.end(), B[x]) - A.begin();
+        int cntb = x + 1;
+        return cnta + cntb;
+    }
+    
+    double find(vector<int> &A, vector<int> &B, int k){
+        if(B.size() == 0) return A[k-1]; // bug1 : the kth element in A is A[k-1];
+        if(A.size() == 0) return B[k-1];
+        
+        int cur = -1;
+        for(int i = B.size(); i > 0; i >>= 1){
+            while(cur + i < B.size() && cnt(A, B, cur+i) < k )
+                cur += i;
+        }
+        // B[cur]
+        if( cur+1 < B.size() && cnt(A, B, cur+1) == k )
+            return B[cur+1];
+        
+        if( cur == -1 )
+            return A[k-1];
+        
+        auto it = upper_bound(A.begin(), A.end(), B[cur]) + (k - cnt(A, B, cur) - 1);
+        return *it;
+    }
+    
+    double findMedianSortedArrays(vector<int>& A, vector<int>& B){
+        int m = A.size();
+        int n = B.size();
+        
+        double res = find(A, B, (m+n+1)/2);
+        if( (m+n) % 2 == 0)
+            res = (res + find(A, B, (m+n+1)/2 + 1) ) / 2;
+        return res;
+    }
+};
+
+
+
+
+// old version
 class Solution {
 public:
     double kth(const vector<int> &A, int ai, int aj, const vector<int> &B, int bi, int bj, int k){
