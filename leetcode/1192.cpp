@@ -1,4 +1,58 @@
 // 1192. Critical Connections in a Network
+
+
+class Solution {
+public:
+    unordered_map<int, vector<int>> E;
+    int curT = 0;
+    vector<int> invs;
+    vector<int> t1, t2;
+    
+    void dfs(int x, int p){
+        invs[x] = true;
+        t1[x] = t2[x] = curT;
+        curT++;
+        for(auto y: E[x]){
+            if( y == p ) continue; // bug1: skip parent
+            if(invs[y]){ // bug2: not invs[x] ....
+                t2[x] = min(t2[x], t1[y]);
+                continue;
+            }
+            dfs(y, x);
+            t2[x] = min(t2[x], t2[y]);
+        }
+    }
+    
+    vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
+        for(auto &v: connections){
+            E[v[0]].push_back(v[1]);
+            E[v[1]].push_back(v[0]);
+        }
+        
+        invs.resize(n, false);
+        t1.resize(n);
+        t2.resize(n);
+        
+        for(int i = 0; i < n; i++){
+            if(invs[i]) continue;
+            dfs(i, -1);
+        }
+        
+        vector<vector<int>> sol;
+        for(auto &v: connections){
+            int x = v[0], y = v[1];
+            if(t1[x] < t1[y]) swap(x, y);
+            if(t1[x] <= t2[x]){
+                sol.push_back(v);
+            }
+        }
+        
+        return sol;
+    }
+};
+
+
+// old version
 class Solution {
 public:
     vector<vector<int>> criticalConnections(int n, vector<vector<int>>& C) {
