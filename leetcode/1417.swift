@@ -1,5 +1,41 @@
 // 1417. Reformat The String
 
+// v2
+
+class Solution {
+    func reformat(_ s: String) -> String {
+        var res = ""
+        var s1 = Array( s.filter{ $0.isNumber } )
+        var s2 = Array( s.filter{ $0.isLetter } )
+        
+
+        if abs(s1.count - s2.count) > 1 {
+            return ""
+        }
+        
+        if s1.count > s2.count {
+            swap(&s1, &s2)
+        }
+        
+        var idx1 = 0
+        var idx2 = 0
+        
+        while idx1 < s1.count && idx2 < s2.count {
+            res.append(s2[idx2])
+            res.append(s1[idx1])
+            idx1 += 1
+            idx2 += 1
+        }
+        
+        if idx2 < s2.count {
+            res.append(s2[idx2])
+        }
+        
+        return res
+    }
+}
+
+// v1
 
 class Solution {
     func reformat(_ s: String) -> String {
